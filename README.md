@@ -5,11 +5,7 @@
 </p>
 
 
-
-# 🚀 Relatório de Operações
-
-CEH v13 Mastery por D1xgxs3c 🚀
-
+# 🚀 Relatório de Operações: CEH v13 🚀
 
 
 <p align="center">
