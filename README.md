@@ -114,7 +114,7 @@ A seguir, a discriminação dos módulos do CEH v13 abordados neste repositório
 
 | `13`   | Hacking Web Servers | Avaliação de segurança e ataques comuns a servidores web. |
 
-| `14`   | Hacking Web Applications | Exploração de vulnerabilidades em aplicações web (com foco no OWASP Top 10). |
+| `14`   | Hacking Web Applications | Exploração de vulnerabilidades em aplicações web (foco no OWASP Top 10). |
 
 | `15`   | SQL Injection | Técnicas de injeção SQL para comprometer bancos de dados. |
 
