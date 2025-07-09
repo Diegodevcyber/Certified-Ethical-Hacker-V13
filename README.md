@@ -1,7 +1,6 @@
 <p align="center">
 
   <img src="https://lh7-rt.googleusercontent.com/docsz/AD_4nXfpA2Co3I3sDvaPRb2DYbYF4-Gfy-UDh-L7lJS7vz1cXCskkTMyZB2wIPGILtpv-EUmy2QNyIpMVk40y1s9LA2qzJS5452WIzj-tqmVKtZLXoNVURejVlQJ6Ih6pBly-MsT8JDzX5AyFd5qqPltSZvAtAFe?key=62avVpfs8yLpDj_StRf8gA">
-  
 </p>
 
 
