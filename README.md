@@ -4,7 +4,7 @@
 
 
 
-# <span style="color: #9fef00;">🚀 Relatório de Operações: CEH v13 🚀</span>
+#🚀 Relatório de Operações: CEH v13 🚀
 
 
 
