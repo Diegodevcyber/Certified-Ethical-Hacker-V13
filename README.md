@@ -1,9 +1,5 @@
 <p align="center">
 
-<div style="height: 150px; overflow: hidden;">
-    <img src="https://lh7-rt.googleusercontent.com/docsz/AD_4nXcRHutwNKvdC2barDXGmT0ckSYyV7Rl3-beTjyBLfMGHq0G4qudBtT4H5R7dtTwgDd0HQWqlLD-JbbLaznNpdlUgoOTrlpLEATuK-Yh3J3qyQMaacOZ85vOJ2SH74QrijjeOxJgZNVS5LnsyzAiS7o-9u8?key=62avVpfs8yLpDj_StRf8gA" style="width: 100%; object-fit: cover; object-position: top;">
-</div>
-
 
 # 🚀 Relatório de Operações: CEH v13 🚀
 
