@@ -1,19 +1,24 @@
 <p align="center">
 
 
-#🚀 Relatório de Operações: CEH v13 🚀
+
+
+
+# 🚀 Relatório de Operações: CEH v13 🚀
+
+
+
+
 
 <p align="center">
+
+
 
   <em>Desvendando o cenário cibernético: Hacking Ético e Cybersegurança na prática.</em>
 
 
 
 </p>
-
-
-
----
 
 
 
