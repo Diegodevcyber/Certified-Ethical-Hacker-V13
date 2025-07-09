@@ -30,41 +30,40 @@ Este projeto demonstra a capacidade de:
 ## 📂 Estrutura do Repositório: Mapeamento de Conhecimento
 
 <p style="font-family: 'monospace'; color: #00ff00;">
-  <code>[SYSTEM_INIT]: Traversing directory tree...</code>
+  <code>[SYSTEM_INIT]: Mapeando a estrutura de diretórios...</code>
 </p>
 
 ```bash
 .
-├── Modulo 01 - Introducao ao Ethical Hacking/    # Core Principles & Ethical Guidelines
-├── Modulo 02 - Footprinting e Reconnaissance/    # Target Information Gathering (OSINT)
-├── Modulo 02 - Labs/                             # Practical Reconnaissance Scenarios
-├── Modulo 03 - Scanning Networks/                # Network Discovery & Service Identification
-├── Modulo 04 - Enumeration/                      # Detailed System & Service Enumeration
-├── Modulo 04 - Labs/                             # Hands-on Enumeration Techniques
-├── Modulo 05 - Vulnerability Analysis/           # Vulnerability Assessment & Scoring
-├── Modulo 06 - System Hacking/                   # Operating System Exploitation & Persistence
-├── Modulo 07 - Malware/                          # Malware Analysis, Types & Countermeasures
-├── Modulo 08 - Sniffing/                         # Network Traffic Interception & Analysis
-├── Modulo 08 - Labs/                             # Sniffing & MITM Practical Exercises
-├── Modulo 09 - Social Engineering/               # Human Exploitation & Psychological Tactics
-├── Modulo 10 - Denial-of-Service/                # DoS/DDoS Attack Vectors & Mitigation Strategies
-├── Modulo 10 - Labs/                             # Denial-of-Service Attack Simulations
-├── Modulo 11 - Session Hijacking/                # Session Control & Exploitation Techniques
-├── Modulo 12 - Evading IDS, Firewalls, and Honeypots/ # Bypassing Security Control Systems
-├── Modulo 12 - Labs/                             # Evasion & Obfuscation Practicals
-├── Modulo 13 - Hacking Web Servers/              # Web Server Configuration & Exploitation
-├── Modulo 14 - Hacking Web Applications/         # Web Application Vulnerability Exploitation (OWASP)
-├── Modulo 14 - Labs/                             # Web Application Security Practical Challenges
-├── Modulo 15 - SQL Injection/                    # Database Exploitation via SQL Injection
-├── Modulo 16 - Hacking Wireless Networks/        # Wireless Network Security & Cracking
-├── Modulo 17 - Hacking Mobile Platforms/         # Mobile OS & Application Vulnerabilities
-├── Modulo 18 - IoT and OT Hacking/               # IoT/OT Device Security & Industrial Control Systems
-├── Modulo 18 - Labs/                             # IoT/OT Hacking Scenarios
-├── Modulo 19 - Cloud Computing/                  # Cloud Infrastructure Security & Risks
-├── Modulo 20 - Cryptography/                     # Cryptographic Principles & Weaknesses
-├── Modulo 20 - Labs/                             # Cryptography Practical Applications
-└── README.md                                     # Operational Report & Project Overview
-
+├── Modulo 01 - Introducao ao Ethical Hacking/    # Princípios Fundamentais e Diretrizes Éticas
+├── Modulo 02 - Footprinting e Reconnaissance/    # Coleta de Informações do Alvo (OSINT)
+├── Modulo 02 - Labs/                             # Cenários Práticos de Reconhecimento
+├── Modulo 03 - Scanning Networks/                # Descoberta de Rede e Identificação de Serviços
+├── Modulo 04 - Enumeration/                      # Enumeração Detalhada de Sistemas e Serviços
+├── Modulo 04 - Labs/                             # Técnicas Práticas de Enumeração
+├── Modulo 05 - Vulnerability Analysis/           # Análise e Pontuação de Vulnerabilidades
+├── Modulo 06 - System Hacking/                   # Exploração de Sistemas Operacionais e Persistência
+├── Modulo 07 - Malware/                          # Análise de Malware, Tipos e Contramedidas
+├── Modulo 08 - Sniffing/                         # Interceptação e Análise de Tráfego de Rede
+├── Modulo 08 - Labs/                             # Exercícios Práticos de Sniffing e MITM
+├── Modulo 09 - Social Engineering/               # Exploração Humana e Táticas Psicológicas
+├── Modulo 10 - Denial-of-Service/                # Vetores de Ataque DoS/DDoS e Estratégias de Mitigação
+├── Modulo 10 - Labs/                             # Simulações de Ataque de Negação de Serviço
+├── Modulo 11 - Session Hijacking/                # Controle de Sessão e Técnicas de Exploração
+├── Modulo 12 - Evading IDS, Firewalls, and Honeypots/ # Bypass de Sistemas de Controle de Segurança
+├── Modulo 12 - Labs/                             # Práticas de Evasão e Ofuscação
+├── Modulo 13 - Hacking Web Servers/              # Configuração e Exploração de Servidores Web
+├── Modulo 14 - Hacking Web Applications/         # Exploração de Vulnerabilidades em Aplicações Web (OWASP)
+├── Modulo 14 - Labs/                             # Desafios Práticos de Segurança de Aplicações Web
+├── Modulo 15 - SQL Injection/                    # Exploração de Banco de Dados via Injeção SQL
+├── Modulo 16 - Hacking Wireless Networks/        # Segurança de Rede Sem Fio e Quebra de Senhas
+├── Modulo 17 - Hacking Mobile Platforms/         # Vulnerabilidades de Dispositivos e Aplicações Móveis
+├── Modulo 18 - IoT and OT Hacking/               # Segurança de Dispositivos IoT/OT e Sistemas de Controle Industrial
+├── Modulo 18 - Labs/                             # Cenários de Hacking IoT/OT
+├── Modulo 19 - Cloud Computing/                  # Riscos e Contramedidas de Segurança em Infraestruturas de Nuvem
+├── Modulo 20 - Cryptography/                     # Princípios Criptográficos e Fraquezas
+├── Modulo 20 - Labs/                             # Aplicações Práticas de Criptografia
+└── README.md                                     # Relatório Operacional e Visão Geral do Projeto
 
 Dentro de cada pasta de módulo, você encontrará uma compilação de:
 * **Documentação Teórica**: Anotações, resumos e conceitos-chave do módulo.
