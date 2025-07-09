@@ -1,9 +1,19 @@
+
 <p align="center">
+  <span style="color: #9fef00; font-family: 'Courier New', Courier, monospace; font-size: 1.2em; animation: moveText 5s linear infinite;">
+    DESCRIPTOGRAFANDO O FUTURO: CÓDIGO ESTRATÉGICO EM MOVIMENTO
+  </span>
+</p>
 
+<style>
+@keyframes moveText {
+  0% { transform: translateX(-100%); }
+  100% { transform: translateX(100%); }
+}
+</style>
 
+<p align="center">
 # 🚀 Relatório de Operações: CEH v13 🚀
-
-
 </p align="center">
 
   <em>Desvendando o cenário cibernético: Hacking Ético e Cybersegurança na prática.</em>
