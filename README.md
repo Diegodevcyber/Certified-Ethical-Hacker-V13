@@ -1,7 +1,6 @@
 <p align="center">
 
-  <img src="![image](https://github.com/user-attachments/assets/82aa488e-8d33-4f65-bd2d-4ea5b52419c3)
-"/>
+  <img src="https://gifs.alphacoders.com/gifs/view/209661"/>
   
 </p>
 
