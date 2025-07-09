@@ -2,7 +2,7 @@
 
 
 <h1 style="color: #9fef00;">🚀 Relatório de Operações: CEH v13 🚀</h1>
-<img src="https://media1.tenor.com/m/GVk4jB2u_i8AAAAd/coding.gif" width="400" border="4">
+<img src="https://media1.tenor.com/m/GVk4jB2u_i8AAAAd/coding.gif" width="400" borderline="14">
 
 
 
