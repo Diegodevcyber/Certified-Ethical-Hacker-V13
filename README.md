@@ -2,7 +2,7 @@
 
 
 <h1 style="color: #9fef00;">🚀 Relatório de Operações: CEH v13 🚀</h1>
-<img src="">
+<img src="https://images.steamusercontent.com/ugc/939432316730598692/998DF3BE9614B453D17E9776752BB36BCE2C8970/?imw=5000&imh=5000&ima=fit&impolicy=Letterbox&imcolor=%23000000&letterbox=false">
 
 
 
