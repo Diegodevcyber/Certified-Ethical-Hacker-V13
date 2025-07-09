@@ -1,232 +1,171 @@
-                                      _
-                                     / \
-                                    / _ \
-                                   | / \ |
-                                   ||   ||
-                                   ||_ _||
-                                   | _____ |
-                                   | | . | |
-                                   | |   | |
-                                   | |___| |
-                                   |_|___|_|
-                                     (_____)
-Snippet de código
+<p align="center">
 
-[2m[32m<--- ESTABLISHING SECURE CONNECTION --- DATASTREAM INITIATED --->[0m
-██╗    ██╗███████╗██╗  ██╗   ██╗ ███████╗██████╗
-██║    ██║██╔════╝██║  ╚██╗ ██╔╝ ██╔════╝██╔══██╗
-██║ █╗ ██║█████╗  ██║   ╚████╔╝  █████╗  ██████╔╝
-██║███╗██║██╔══╝  ██║    ╚██╔╝   ██╔══╝  ██╔══██╗
-╚███╔███╔╝███████╗███████╗██║    ███████╗██║  ██║
- ╚══╝╚══╝ ╚══════╝╚══════╝╚═╝    ╚══════╝╚═╝  ╚═╝
+  <img src="https://raw.githubusercontent.com/Diags5ac/CEH_v13/main/assets/ceh_logo.png" alt="CEH v13 Logo" width="180"/>
 
-  🚀 :: RELATÓRIO DE OPERAÇÕES :: CEH v13 MASTERY :: por D1xgxs3c :: 🚀
+</p>
 
 
-  DESVENDANDO O CENÁRIO CIBERNÉTICO: HACKING ÉTICO E CYBERSEGURANÇA EM ALTA RESOLUÇÃO
 
+# 🚀 Relatório de Operações: CEH v13 Mastery por D1xgxs3c 🚀
 
-  
 
-🎯 VISÃO GERAL DO PROJETO :: INICIANDO SCAN_0x01
-Snippet de código
 
-[2m[34m----------------------------------------------------------------------------------[0m
-Este repositório não é meramente um registro; é um arquivo de inteligência cibernética, um compêndio abrangente e consolidado de todo o conhecimento, metodologias, ferramentas e práticas forjadas durante o programa de certificação CEH v13 (Certified Ethical Hacker). Ele serve como um log detalhado da minha incursão na segurança ofensiva, decifrando as táticas e técnicas empregadas por operadores adversários para identificar, explorar e, crucialmente, mitigar vulnerabilidades em sistemas e redes.
+<p align="center">
 
-"A segurança é um processo contínuo, não um estado final." - Bruce Schneier [CIT. ID: 0x7E3A]
+  <em>Desvendando o cenário cibernético: Hacking Ético e Cybersegurança na prática.</em>
 
-Este projeto valida a capacidade de:
+</p>
 
-Realizar reconhecimento e varredura de forma forense e ética.
 
-Conduzir análise de vulnerabilidades e procedimentos de exploração.
 
-Decifrar e neutralizar ameaças persistentes como malware e engenharia social.
+<p align="center">
 
-Empregar técnicas avançadas de evasão e defesa proativa.
+  </p>
 
-Snippet de código
 
-[2m[34m----------------------------------------------------------------------------------[0m
-📂 ESTRUTURA DO REPOSITÓRIO :: DATA MAPPING_0x02
-Snippet de código
 
-[2m[34m----------------------------------------------------------------------------------[0m
-A arquitetura deste repositório foi meticulosamente orquestrada para espelhar a topologia modular do curso CEH v13, otimizando a navegação e o acesso a clusters de dados específicos. Cada diretório principal age como um nó de conhecimento, contendo subdiretórios ou arquivos para laboratórios e artefatos complementares.
+---
 
-Dentro de cada diretório de módulo, você encontrará uma compilação de dados:
 
-Documentação Teórica: Anotações criptografadas, resumos e conceitos-chave.
 
-Códigos e Scripts: Implementações práticas, proofs of concept (PoCs) e exemplos de payloads.
+## 🎯 Visão Geral do Projeto
 
-Resultados de Laboratórios: Evidências digitais, configurações e registros de logs de simulações práticas.
 
-Snippet de código
 
-[2m[34m----------------------------------------------------------------------------------[0m
-⚙️ MÓDULOS DE CONHECIMENTO :: DOMÍNIOS OPERACIONAIS_0x03
-Snippet de código
+Este repositório é um **compêndio abrangente e consolidado** de todo o conhecimento, metodologias, ferramentas e práticas desenvolvidas durante o programa de certificação **CEH v13 (Certified Ethical Hacker)**. Ele serve como um registro detalhado da minha jornada em segurança ofensiva, abordando as táticas e técnicas utilizadas por adversários para identificar e mitigar vulnerabilidades em sistemas e redes.
 
-[2m[34m----------------------------------------------------------------------------------[0m
-A seguir, a discriminação dos vetores de ataque e domínios de defesa abordados neste repositório, cada um representando uma superfície crítica na segurança cibernética:
 
-Módulo
 
-Tópico Principal (Target)
+> "A segurança é um processo, não um produto." - Bruce Schneier
 
-Conteúdo Programático Essencial (Payloads & Countermeasures)
 
-01
 
-INIT: Introdução ao Ethical Hacking
+Este projeto demonstra a capacidade de:
 
-Fundamentos, fases de ataque e protocolos éticos.
+* Realizar varreduras e reconhecimento de forma ética.
 
-02
+* Analisar vulnerabilidades e explorar sistemas.
 
-RECON: Footprinting e Reconnaissance
+* Compreender e mitigar ameaças como *malware* e ataques de *engenharia social*.
 
-Coleta de inteligência passiva e ativa (OSINT, Whois, etc.).
+* Aplicar técnicas avançadas de evasão e proteção.
 
-03
 
-SCAN: Scanning Networks
 
-Varredura de rede, descoberta de hosts, portas e serviços.
+---
 
-04
 
-ENUM: Enumeration
 
-Mapeamento detalhado de usuários, recursos e serviços.
+## 📂 Estrutura do Repositório: Mapeamento de Conhecimento
 
-05
 
-ANALYZE: Vulnerability Analysis
 
-Varredura e análise sistemática de vulnerabilidades.
+A organização deste repositório foi meticulosamente planejada para espelhar a estrutura modular do curso CEH v13, facilitando a navegação e o acesso ao conteúdo específico. Cada diretório principal corresponde a um módulo, e contém subdiretórios ou arquivos para laboratórios e materiais complementares.
 
-06
 
-EXPLOIT: System Hacking
 
-Infiltração em sistemas operacionais e escalonamento de privilégios.
+Dentro de cada pasta de módulo, você encontrará uma compilação de:
 
-07
+* **Documentação Teórica**: Anotações, resumos e conceitos-chave do módulo.
 
-MALWARE: Malware
+* **Códigos e Scripts**: Implementações práticas, *proofs of concept* (PoCs) e exemplos de uso de ferramentas.
 
-Análise de vetores de malware, infecção e protocolos de contenção.
+* **Resultados de Laboratórios**: Evidências, configurações e *logs* de exercícios práticos.
 
-08
 
-SNIFF: Sniffing
 
-Interceptação e análise de datastreams para exfiltração de dados.
+---
 
-09
 
-SOCIAL: Social Engineering
 
-Ataques baseados em engenharia psicológica e contramedidas comportamentais.
+## ⚙️ Módulos de Conhecimento: Detalhamento por Domínio
 
-10
 
-DOS/DDOS: Denial-of-Service
 
-Inundação de recursos (DoS/DDoS) e estratégias de mitigação.
+A seguir, a discriminação dos módulos do CEH v13 abordados neste repositório, cada um representando um domínio crítico na segurança cibernética:
 
-11
 
-HIJACK: Session Hijacking
 
-Tomada e exploração de sessões de comunicação ativas.
+| Módulo | Tópico Principal | Conteúdo Programático Essencial |
 
-12
+| :----- | :--------------- | :------------------------------ |
 
-EVADE: Evading IDS, Firewalls, and Honeypots
+| `01`   | Introdução ao Ethical Hacking | Fundamentos, fases do hacking e princípios éticos. |
 
-Técnicas de bypass para sistemas de segurança e detecção.
+| `02`   | Footprinting e Reconnaissance | Coleta de informações: passiva, ativa (OSINT, Whois, etc.). |
 
-13
+| `03`   | Scanning Networks | Varredura de rede, descoberta de hosts, portas e serviços. |
 
-WEB_SERVER: Hacking Web Servers
+| `04`   | Enumeration | Identificação detalhada de usuários, recursos e serviços de rede. |
 
-Avaliação de hardening e ataques comuns a servidores web.
+| `05`   | Vulnerability Analysis | Escaneamento e análise sistemática de vulnerabilidades. |
 
-14
+| `06`   | System Hacking | Exploração de sistemas operacionais e técnicas de escalonamento de privilégios. |
 
-WEB_APP: Hacking Web Applications
+| `07`   | Malware | Análise de diversos tipos de *malware*, infecção e prevenção. |
 
-Exploração de exploits em aplicações web (OWASP Top 10).
+| `08`   | Sniffing | Interceptação e análise de tráfego de rede para extração de informações. |
 
-15
+| `09`   | Social Engineering | Ataques baseados em manipulação psicológica e suas contramedidas. |
 
-SQL_INJ: SQL Injection
+| `10`   | Denial-of-Service | Ataques de negação de serviço (DoS/DDoS) e estratégias de mitigação. |
 
-Técnicas de injeção SQL para comprometimento de bancos de dados.
+| `11`   | Session Hijacking | Roubo e exploração de sessões de comunicação ativas. |
 
-16
+| `12`   | Evading IDS, Firewalls, and Honeypots | Técnicas para bypass de sistemas de segurança e detecção. |
 
-WIRELESS: Hacking Wireless Networks
+| `13`   | Hacking Web Servers | Avaliação de segurança e ataques comuns a servidores web. |
 
-Análise de segurança e vetores de ataque a redes sem fio (Wi-Fi).
+| `14`   | Hacking Web Applications | Exploração de vulnerabilidades em aplicações web (com foco no OWASP Top 10). |
 
-17
+| `15`   | SQL Injection | Técnicas de injeção SQL para comprometer bancos de dados. |
 
-MOBILE: Hacking Mobile Platforms
+| `16`   | Hacking Wireless Networks | Segurança e ataques a redes sem fio (Wi-Fi). |
 
-Análise de vulnerabilidades em endpoints e aplicações móveis.
+| `17`   | Hacking Mobile Platforms | Análise de vulnerabilidades em dispositivos e aplicações móveis. |
 
-18
+| `18`   | IoT and OT Hacking | Desafios de segurança em Internet das Coisas (IoT) e Tecnologia Operacional (OT). |
 
-IOT/OT: IoT and OT Hacking
+| `19`   | Cloud Computing | Riscos de segurança e melhores práticas em ambientes de nuvem. |
 
-Desafios de segurança em Redes de Sensores (IoT) e Sistemas de Controle Industrial (OT).
+| `20`   | Cryptography | Fundamentos, algoritmos e análise de vulnerabilidades criptográficas. |
 
-19
 
-CLOUD: Cloud Computing
 
-Superfícies de ataque em ambientes de nuvem e melhores práticas de defesa.
+---
 
-20
 
-CRYPTO: Cryptography
 
-Fundamentos, algoritmos e análise de vulnerabilidades criptográficas.
+## 🤝 Contato e Colaboração
 
 
-Exportar para as Planilhas
-Snippet de código
 
-[2m[34m----------------------------------------------------------------------------------[0m
-🤝 CONTATO E COLABORAÇÃO :: SECURE_COMM_CHANNEL
-Snippet de código
+Este repositório é um artefato da minha expertise no CEH v13. Para quaisquer dúvidas, insights ou propostas de colaboração técnica relativas ao conteúdo, sinta-se à vontade para entrar em contato.
 
-[2m[34m----------------------------------------------------------------------------------[0m
-Este repositório é um artefato validado da minha expertise no CEH v13. Para quaisquer requisições de feedback, insights ou propostas de colaboração técnica relativas ao conteúdo, sinta-se à vontade para estabelecer comunicação.
 
-Snippet de código
 
-[2m[34m----------------------------------------------------------------------------------[0m
-📄 LICENÇA DE USO :: ACCESS_GRANTED
-Snippet de código
+---
 
-[2m[34m----------------------------------------------------------------------------------[0m
-Todo o material contido neste repositório é distribuído sob a licença MIT License. Esteja à vontade para explorar, decifrar e alavancar o conteúdo para seus estudos e pesquisas pessoais, em conformidade com os termos especificados.
 
-Snippet de código
 
-[2m[34m----------------------------------------------------------------------------------[0m
+## 📄 Licença de Uso
 
-  ANÁLISE. EXPLORAÇÃO. PROTEÇÃO. [CYCLE COMPLETE]
-  
 
-  D1xgxs3c © 2025 - CyberOps [STATUS: ONLINE]
 
-Snippet de código
+Todo o material contido neste repositório é distribuído sob a licença [MIT License](LICENSE). Esteja à vontade para explorar, aprender e utilizar o conteúdo para seus estudos e pesquisas pessoais, em conformidade com os termos especificados.
 
-[2m[32m<--- DATASTREAM TERMINATED --- CONNECTION CLOSED --->[0m
+
+
+---
+
+
+
+<p align="center">
+
+  <em>Análise. Exploração. Proteção.</em>
+
+  <br>
+
+  <span>D1xgxs3c &copy; 2025 - CyberOps</span>
+
+</p>
