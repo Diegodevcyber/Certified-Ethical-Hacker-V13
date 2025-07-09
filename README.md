@@ -1,7 +1,7 @@
 <p align="center">
 
   <img src="https://www.gifcen.com/wp-content/uploads/2023/11/hacker-gif-4.gif" width="600"/>
-  <img src="https://lh7-rt.googleusercontent.com/docsz/AD_4nXeXrCdXweOv7rf09ANUqt-jhKFJmRT6JGap_0mgZ-qIIjdvTC5Bm0LJSncQha9dPs0VKE5gNo9nLfBJq5levIhYBfK2cYwwJ6TnGW8O2rSHOC6CJ3sQLI5FBt7YJlEx9kJc0TpCug6VVz1-zG4dOGcIpI4m?key=62avVpfs8yLpDj_StRf8gA"/>
+  <img style="display: block;-webkit-user-select: none;margin: auto;cursor: zoom-out;background-color: hsl(0, 0%, 90%);" src="https://lh7-rt.googleusercontent.com/docsz/AD_4nXeXrCdXweOv7rf09ANUqt-jhKFJmRT6JGap_0mgZ-qIIjdvTC5Bm0LJSncQha9dPs0VKE5gNo9nLfBJq5levIhYBfK2cYwwJ6TnGW8O2rSHOC6CJ3sQLI5FBt7YJlEx9kJc0TpCug6VVz1-zG4dOGcIpI4m?key=62avVpfs8yLpDj_StRf8gA" width="1190" height="758">
   
 </p>
 
