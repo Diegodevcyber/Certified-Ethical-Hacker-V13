@@ -67,7 +67,7 @@ A seguir, a discriminação dos módulos do CEH v13 abordados neste repositório
 
 ---
 
-## 🤝 Contato e Colaboração
+## 🤝 CONTATO E COLABORAÇÃO :: SECURE_COMM_CHANNEL
 
 Este repositório é um artefato da minha expertise no CEH v13. Para quaisquer dúvidas, insights ou propostas de colaboração técnica relativas ao conteúdo, sinta-se à vontade para entrar em contato.
 
