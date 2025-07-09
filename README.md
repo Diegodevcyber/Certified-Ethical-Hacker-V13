@@ -1,6 +1,6 @@
-a<p align="center">
+<p align="center">
 
-  <img src="http://googleusercontent.com/image_collection/image_retrieval/11948870779702207581" alt="Hacker GIF" width="180"/>
+  <img src="https://raw.githubusercontent.com/Diags5ac/CEH_v13/main/assets/ceh_logo.png" alt="CEH v13 Logo" width="180"/>
 
 </p>
 
