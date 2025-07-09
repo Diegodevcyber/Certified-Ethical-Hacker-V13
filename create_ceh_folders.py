@@ -36,9 +36,20 @@ folders = [
 
 for folder in folders:
     try:
+        # Cria a pasta
         os.makedirs(folder, exist_ok=True)
         print(f"Pasta criada: {folder}")
-    except OSError as e:
-        print(f"Erro ao criar pasta {folder}: {e}")
 
-print("\nTodas as pastas foram processadas.")
+        # Caminho completo para o arquivo .gitkeep dentro da pasta
+        gitkeep_path = os.path.join(folder, ".gitkeep")
+
+        # Cria o arquivo .gitkeep
+        with open(gitkeep_path, 'w') as f:
+            pass # Apenas cria o arquivo vazio
+
+        print(f"  - Arquivo .gitkeep criado em: {gitkeep_path}")
+
+    except OSError as e:
+        print(f"Erro ao processar pasta {folder}: {e}")
+
+print("\nTodas as pastas e arquivos .gitkeep foram processados.")
