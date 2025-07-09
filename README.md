@@ -4,8 +4,15 @@
   </span>
 </p>
 
+<style>
+@keyframes moveText {
+  0% { transform: translateX(-100%); }
+  100% { transform: translateX(100%); }
+}
+</style>
 
-<p style="color: #9fef00" align="center">
+
+<p align="center">
 
 
 
