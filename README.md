@@ -25,15 +25,6 @@ Este projeto demonstra a capacidade de:
 * Compreender e mitigar ameaças como *malware* e ataques de *engenharia social*.
 * Aplicar técnicas avançadas de evasão e proteção.
 
----
-
-## 📂 Estrutura do Repositório: Mapeamento de Conhecimento
-
-<p style="font-family: 'monospace'; color: #00ff00;">
-  <code>[SYSTEM_INIT]: Mapeando a estrutura de diretórios...</code>
-</p>
-
-```bash
 <p align="center">
   <img src="https://raw.githubusercontent.com/Diags5ac/CEH_v13/main/assets/ceh_logo.png" alt="CEH v13 Logo" width="180"/>
 </p>
@@ -85,6 +76,36 @@ Este projeto demonstra a capacidade de:
 </p>
 
 ```bash
+.                                                 # /ROOT_CEH_v13/
+├── Modulo 01 - Introducao ao Ethical Hacking/    # // Core Principles & Ethical Guidelines
+├── Modulo 02 - Footprinting e Reconnaissance/    # // Target Information Gathering (OSINT)
+├── Modulo 02 - Labs/                             # // Practical Reconnaissance Scenarios
+├── Modulo 03 - Scanning Networks/                # // Network Discovery & Service Identification
+├── Modulo 04 - Enumeration/                      # // Detailed System & Service Enumeration
+├── Modulo 04 - Labs/                             # // Hands-on Enumeration Techniques
+├── Modulo 05 - Vulnerability Analysis/           # // Vulnerability Assessment & Scoring
+├── Modulo 06 - System Hacking/                   # // Operating System Exploitation & Persistence
+├── Modulo 07 - Malware/                          # // Malware Analysis, Types & Countermeasures
+├── Modulo 08 - Sniffing/                         # // Network Traffic Interception & Analysis
+├── Modulo 08 - Labs/                             # // Sniffing & MITM Practical Exercises
+├── Modulo 09 - Social Engineering/               # // Human Exploitation & Psychological Tactics
+├── Modulo 10 - Denial-of-Service/                # // DoS/DDoS Attack Vectors & Mitigation Strategies
+├── Modulo 10 - Labs/                             # // Denial-of-Service Attack Simulations
+├── Modulo 11 - Session Hijacking/                # // Session Control & Exploitation Techniques
+├── Modulo 12 - Evading IDS, Firewalls, and Honeypots/ # // Bypassing Security Control Systems
+├── Modulo 12 - Labs/                             # // Evasion & Obfuscation Practicals
+├── Modulo 13 - Hacking Web Servers/              # // Web Server Configuration & Exploitation
+├── Modulo 14 - Hacking Web Applications/         # // Web Application Vulnerability Exploitation (OWASP)
+├── Modulo 14 - Labs/                             # // Web Application Security Practical Challenges
+├── Modulo 15 - SQL Injection/                    # // Database Exploitation via SQL Injection
+├── Modulo 16 - Hacking Wireless Networks/        # // Wireless Network Security & Cracking
+├── Modulo 17 - Hacking Mobile Platforms/         # // Mobile OS & Application Vulnerabilities
+├── Modulo 18 - IoT and OT Hacking/               # // IoT/OT Device Security & Industrial Control Systems
+├── Modulo 18 - Labs/                             # // IoT/OT Hacking Scenarios
+├── Modulo 19 - Cloud Computing/                  # // Cloud Infrastructure Security & Risks
+├── Modulo 20 - Cryptography/                     # // Cryptographic Principles & Weaknesses
+├── Modulo 20 - Labs/                             # // Cryptography Practical Applications
+└── README.md                                     # // Operational Report & Project Overview
 .                                                 # /ROOT_CEH_v13/
 ├── Modulo 01 - Introducao ao Ethical Hacking/    # // Core Principles & Ethical Guidelines
 ├── Modulo 02 - Footprinting e Reconnaissance/    # // Target Information Gathering (OSINT)
