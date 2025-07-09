@@ -1,6 +1,6 @@
 <p align="center">
 
-<img style="height: 50%; overflow: hidden; object-fit: cover; object-position: top;" src="https://lh7-rt.googleusercontent.com/docsz/AD_4nXcRHutwNKvdC2barDXGmT0ckSYyV7Rl3-beTjyBLfMGHq0G4qudBtT4H5R7dtTwgDd0HQWqlLD-JbbLaznNpdlUgoOTrlpLEATuK-Yh3J3qyQMaacOZ85vOJ2SH74QrijjeOxJgZNVS5LnsyzAiS7o-9u8?key=62avVpfs8yLpDj_StRf8gA">
+<img style="height: 20%; overflow: hidden; object-fit: cover; object-position: top;" src="https://lh7-rt.googleusercontent.com/docsz/AD_4nXcRHutwNKvdC2barDXGmT0ckSYyV7Rl3-beTjyBLfMGHq0G4qudBtT4H5R7dtTwgDd0HQWqlLD-JbbLaznNpdlUgoOTrlpLEATuK-Yh3J3qyQMaacOZ85vOJ2SH74QrijjeOxJgZNVS5LnsyzAiS7o-9u8?key=62avVpfs8yLpDj_StRf8gA">
 
 # 🚀 Relatório de Operações: CEH v13 🚀
 
