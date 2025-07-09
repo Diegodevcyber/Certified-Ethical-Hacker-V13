@@ -2,9 +2,9 @@
 
 <p align="center">
 <h1 style="color: #9fef00;">🚀 Relatório de Operações: CEH v13 🚀</h1>
-</p>
+  <img src="https://media1.tenor.com/m/GVk4jB2u_i8AAAAd/coding.gif">
 
-<img src="https://media1.tenor.com/m/GVk4jB2u_i8AAAAd/coding.gif">
+</p>
 
 <p align="center">
   <em>Desvendando o cenário cibernético: Hacking Ético e Cybersegurança na prática.</em>
