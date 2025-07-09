@@ -1,7 +1,7 @@
 <p align="center">
 
   <img src="https://www.gifcen.com/wp-content/uploads/2023/11/hacker-gif-4.gif" width="600"/>
-  <img src="https://makeagif.com/gif/dj-saitto-oC9tjD?position=3"/>
+  <img src="https://thumb.r2.moele.me/t/16334/16324575/a-0005.jpg"/>
   
 </p>
 
