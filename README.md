@@ -3,16 +3,22 @@
 </p>
 
 # 🚀 Relatório de Operações: CEH v13 Mastery por D1xgxs3c 🚀
-
 <p align="center">
-  <em>Desvendando o cenário cibernético: Hacking Ético e Cybersegurança na prática.</em>
+  <img src="https://raw.githubusercontent.com/Diags5ac/CEH_v13/main/assets/ceh_logo.png" alt="CEH v13 Logo" width="180"/>
 </p>
 
-http://googleusercontent.com/image_generation_content/0
+# 🚀 Relatório de Operações: CEH v13 Mastery por D1xgxs3c 🚀
+
+<p align="center">
+  <em>Desvendando o cenário cibernético: Hacking Ético e Cybersegurança na prática.</em>
+</p>
 
 ---
 
 ## 🎯 Visão Geral do Projeto
+
+```bash
+root@cyberops:~# cat project_overview.txt
 
 Este repositório é um **compêndio abrangente e consolidado** de todo o conhecimento, metodologias, ferramentas e práticas desenvolvidas durante o programa de certificação **CEH v13 (Certified Ethical Hacker)**. Ele serve como um registro detalhado da minha jornada em segurança ofensiva, abordando as táticas e técnicas utilizadas por adversários para identificar e mitigar vulnerabilidades em sistemas e redes.
 
