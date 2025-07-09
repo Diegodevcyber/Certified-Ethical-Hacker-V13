@@ -1,6 +1,6 @@
 <p align="center">
 
-  <img src="https://www.coengoedegebure.com/content/images/2017/09/phase3GainAccess.gif" alt="CEH v13 Logo" width="240"/>
+  <img src="https://www.coengoedegebure.com/content/images/2017/09/phase3GainAccess.gif" alt="CEH v13 Logo" width="600"/>
 
 </p>
 
