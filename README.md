@@ -1,6 +1,6 @@
 <p align="center">
 
-  <img src="https://www.gifcen.com/wp-content/uploads/2023/11/hacker-gif-4.gif"/>
+  <img src="https://www.gifcen.com/wp-content/uploads/2023/11/hacker-gif-4.gif" width="400"/>
   
 </p>
 
