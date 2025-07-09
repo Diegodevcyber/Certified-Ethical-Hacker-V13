@@ -10,15 +10,7 @@
 
 </p>
 
-
-
-http://googleusercontent.com/image_generation_content/0
-
-
-
 ---
-
-
 
 ## 🎯 Visão Geral do Projeto
 
