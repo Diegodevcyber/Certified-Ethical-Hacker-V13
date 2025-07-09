@@ -1,17 +1,11 @@
 <p align="center">
-  <img src="https://raw.githubusercontent.com/Diags5ac/CEH_v13/main/assets/ceh_logo.png" alt="Logo CEH v13" width="200"/>
+  <img src="https://raw.githubusercontent.com/Diags5ac/CEH_v13/main/assets/ceh_logo.png" alt="CEH v13 Logo" width="180"/>
 </p>
 
-<h1 align="center">
-  <img src="https://i.imgur.com/2X9C2Yw.png" alt="D1xgxs3c Terminal Prompt" width="400"/>
-  <br>
-  <span style="font-family: 'monospace'; color: #00ff00;">// ACCESS GRANTED //</span>
-</h1>
+# 🚀 Relatório de Operações: CEH v13 Mastery por D1xgxs3c 🚀
 
 <p align="center">
-  <span style="font-family: 'monospace'; color: #00ffff;">[ D1xgxs3c_CEHv13_Report.log ]</span>
-  <br>
-  <em>Log de Operações e Conhecimento em Hacking Ético e Cybersegurança.</em>
+  <em>Desvendando o cenário cibernético: Hacking Ético e Cybersegurança na prática.</em>
 </p>
 
 <p align="center">
@@ -19,265 +13,106 @@
 
 ---
 
-## <span style="color: #00ffff;">`>>` INITIALIZING SCAN: PROJECT OVERVIEW</span>
+## 🎯 Visão Geral do Projeto
 
-<p style="font-family: 'monospace'; color: #00ff00;">
-  <code>[SYSTEM_MSG]: Analyzing compiled data for CEH v13 certification.</code>
-  <br>
-  Este repositório é o meu **arquivo de dados críticos** e a **matriz de conhecimento consolidado** do programa de certificação **CEH v13 (Certified Ethical Hacker)**. Ele serve como um registro completo de todas as metodologias, ferramentas e *exploits* desenvolvidos e explorados.
-</p>
+Este repositório é um **compêndio abrangente e consolidado** de todo o conhecimento, metodologias, ferramentas e práticas desenvolvidas durante o programa de certificação **CEH v13 (Certified Ethical Hacker)**. Ele serve como um registro detalhado da minha jornada em segurança ofensiva, abordando as táticas e técnicas utilizadas por adversários para identificar e mitigar vulnerabilidades em sistemas e redes.
 
-<blockquote style="border-left: 4px solid #00ffff; padding-left: 10px; color: #aaaaaa; font-family: 'monospace';">
-  <p><code>&gt; Objetivo da Operação: Desconstruir vetores de ataque, fortalecer defesas cibernéticas e alcançar a maestria em segurança ofensiva.</code></p>
-</blockquote>
+> "A segurança é um processo, não um produto." - Bruce Schneier
+
+Este projeto demonstra a capacidade de:
+* Realizar varreduras e reconhecimento de forma ética.
+* Analisar vulnerabilidades e explorar sistemas.
+* Compreender e mitigar ameaças como *malware* e ataques de *engenharia social*.
+* Aplicar técnicas avançadas de evasão e proteção.
 
 ---
 
-## <span style="color: #00ffff;">`>>` DIRECTORY MAPPING: SYSTEM ARCHITECTURE</span>
+## 📂 Estrutura do Repositório: Mapeamento de Conhecimento
 
-<p style="font-family: 'monospace'; color: #00ff00;">
-  <code>[SYSTEM_MSG]: Mapping module directories.</code>
-  <br>
-  A estrutura lógica deste repositório replica o design modular do CEH v13, garantindo acesso imediato a segmentos específicos de conhecimento. Cada diretório atua como um `container` para o material do módulo e seus respectivos laboratórios.
-</p>
+A organização deste repositório foi meticulosamente planejada para espelhar a estrutura modular do curso CEH v13, facilitando a navegação e o acesso ao conteúdo específico. Cada diretório principal corresponde a um módulo, e contém subdiretórios ou arquivos para laboratórios e materiais complementares.
 
-```bash
 .
-├── Modulo 01 - Introducao ao Ethical Hacking/    # Core concepts and ethics
-├── Modulo 02 - Footprinting e Reconnaissance/    # Information gathering phase
-├── Modulo 02 - Labs/                             # Practical reconnaissance exercises
-├── Modulo 03 - Scanning Networks/                # Network probing and vulnerability discovery
-├── Modulo 04 - Enumeration/                      # System and service enumeration
-├── Modulo 04 - Labs/                             # Hands-on enumeration
-├── Modulo 05 - Vulnerability Analysis/           # Vulnerability assessment techniques
-├── Modulo 06 - System Hacking/                   # OS exploitation and privilege escalation
-├── Modulo 07 - Malware/                          # Malware analysis and countermeasures
-├── Modulo 08 - Sniffing/                         # Network traffic interception and analysis
-├── Modulo 08 - Labs/                             # Sniffing practicals
-├── Modulo 09 - Social Engineering/               # Human element exploitation
-├── Modulo 10 - Denial-of-Service/                # DoS/DDoS attack vectors and defense
-├── Modulo 10 - Labs/                             # DoS attack simulations
-├── Modulo 11 - Session Hijacking/                # Session control exploitation
-├── Modulo 12 - Evading IDS, Firewalls, and Honeypots/ # Bypassing security controls
-├── Modulo 12 - Labs/                             # Evasion techniques practicals
-├── Modulo 13 - Hacking Web Servers/              # Web server compromise
-├── Modulo 14 - Hacking Web Applications/         # Web application vulnerabilities (OWASP Top 10)
-├── Modulo 14 - Labs/                             # Web app exploitation exercises
-├── Modulo 15 - SQL Injection/                    # Database injection techniques
-├── Modulo 16 - Hacking Wireless Networks/        # Wireless network security and attacks
-├── Modulo 17 - Hacking Mobile Platforms/         # Mobile device and app vulnerabilities
-├── Modulo 18 - IoT and OT Hacking/               # IoT/OT system compromise
-├── Modulo 18 - Labs/                             # IoT/OT practicals
-├── Modulo 19 - Cloud Computing/                  # Cloud security risks and countermeasures
-├── Modulo 20 - Cryptography/                     # Cryptographic principles and attacks
-├── Modulo 20 - Labs/                             # Cryptography practicals
-└── README.md                                     # This operational log
-
-[INFO]: Each module directory contains:
-
-
-            [+] Theory and Concept Documentation
-
-
-            [+] Custom Scripts and Tool Implementations
-
-
-            [+] Lab Solutions and Practical Exercise Results
-
->> KNOWLEDGE MATRIX: CORE DOMAINS
-
-[SYSTEM_MSG]: Enumerating core domains of CEH v13.
-
-Modulo
-
-Tópico Principal
-
-Conteúdo Programático Abordado
-
-01
-
-Introdução ao Ethical Hacking
-
-Conceitos fundamentais, framework de hacking e ética cibernética.
-
-02
-
-Footprinting e Reconnaissance
-
-Técnicas de coleta de informações: passiva, ativa e OSINT.
-
-03
-
-Scanning Networks
-
-Varredura de rede, descoberta de hosts, portas e serviços.
-
-04
-
-Enumeration
-
-Descoberta de usuários, grupos, recursos compartilhados e serviços de rede.
-
-05
-
-Vulnerability Analysis
-
-Identificação e avaliação de vulnerabilidades em sistemas e aplicações.
-
-06
-
-System Hacking
-
-Acesso, exploração e manutenção de privilégios em sistemas operacionais.
-
-07
-
-Malware
-
-Análise de tipos de malware, métodos de infecção e prevenção.
-
-08
-
-Sniffing
-
-Captura, análise e exploração de tráfego de rede.
-
-09
-
-Social Engineering
-
-Ataques baseados em manipulação humana e contramedidas.
-
-10
-
-Denial-of-Service
-
-Ataques de negação de serviço e negação de serviço distribuído (DoS/DDoS).
-
-11
-
-Session Hijacking
-
-Interceptação e exploração de sessões ativas.
-
-12
-
-Evading IDS, Firewalls, and Honeypots
-
-Métodos para bypass de sistemas de detecção e prevenção de intrusões.
-
-13
-
-Hacking Web Servers
-
-Avaliação de segurança e ataques a servidores web.
-
-14
-
-Hacking Web Applications
-
-Exploração de vulnerabilidades em aplicações web (OWASP Top 10).
-
-15
-
-SQL Injection
-
-Técnicas de injeção SQL para manipulação de bancos de dados.
-
-16
-
-Hacking Wireless Networks
-
-Ataques e segurança em redes sem fio (Wi-Fi).
-
-17
-
-Hacking Mobile Platforms
-
-Vulnerabilidades e segurança em dispositivos e aplicações móveis.
-
-18
-
-IoT and OT Hacking
-
-Segurança ofensiva em Internet das Coisas (IoT) e Tecnologia Operacional (OT).
-
-19
-
-Cloud Computing
-
-Riscos de segurança e estratégias de proteção em ambientes de nuvem.
-
-20
-
-Cryptography
-
-Fundamentos, algoritmos e análise de vulnerabilidades criptográficas.
-
-
-Exportar para as Planilhas
->> POST-OPERATION ANALYSIS: COLLABORATION PROTOCOL
-
-[SYSTEM_MSG]: Initiating collaboration protocol.
-
-
-Este repositório é uma base de dados fechada, consolidando meu conhecimento. No entanto, o intercâmbio de inteligência é vital. Para relatórios de bugs no README ou discussões técnicas sobre o conteúdo, o protocolo de comunicação via Issues está ativo.
-
->> LICENSE_PROTOCOL: ACCESS RIGHTS
-
-[SYSTEM_MSG]: Acknowledging license agreement.
-
-
-Este conteúdo é distribuído sob o protocolo de licença MIT License. Acesso, uso e modificação são permitidos para fins educacionais e de pesquisa, em conformidade com os termos especificados.
-
-
-> _ D1xgxs3c @ CyberSec_Operations _ <
-
-
-// END OF REPORT //
-
-
------
-
-**Pontos de Melhoria e Estilização "Hacker/Cybersecurity":**
-
-1.  **Título Personalizado**:
-
-      * Substituí a imagem do título por uma que simula um prompt de terminal (`<img src="https://i.imgur.com/2X9C2Yw.png" alt="D1xgxs3c Terminal Prompt" width="400"/>`). **Você precisará criar ou encontrar uma imagem simples de um prompt de terminal com `D1xgxs3c` ou algo similar e hospedar essa imagem (no Imgur, no seu próprio GitHub na pasta `assets`, etc.) e substituir o link `https://i.imgur.com/2X9C2Yw.png` pelo seu.** Se não quiser usar imagem, posso adaptar apenas com texto.
-      * Adicionei `<span style="font-family: 'monospace'; color: #00ff00;">// ACCESS GRANTED //</span>` para o efeito de "acesso concedido".
-      * O subtítulo usa `[ D1xgxs3c_CEHv13_Report.log ]` para parecer um arquivo de log.
-
-2.  **Cores e Fontes (Inline HTML/CSS)**:
-
-      * Usei `<span style="font-family: 'monospace'; color: #00ff00;">` (verde terminal) e `<span style="color: #00ffff;">` (azul ciano, para títulos) para simular o estilo de terminal diretamente no Markdown. Isso é feito com HTML/CSS inline, que o GitHub `README.md` suporta.
-      * Blocos de código (` `` `) e blocos de citação (`>`) são usados para imitar mensagens de sistema.
-
-3.  **Linguagem Imersiva**:
-
-      * Títulos de seção agora são prefixados com `>>` e envoltos em `<code>` para parecerem comandos de terminal: `<span style="color: #00ffff;">`\>\>`  INITIALIZING SCAN: PROJECT OVERVIEW</span> `.
-      * Mensagens de sistema `[SYSTEM_MSG]:` e `[INFO]:` são usadas para dar a sensação de um console de operação.
-      * Terminologia como "matriz de conhecimento", "arsenal digital", "vetores de ataque", "protocolo de comunicação", "inteligência" reforça o tema.
-
-4.  **Estrutura do Diretório Aprimorada**:
-
-      * Adicionei comentários (`#`) no *tree* de diretórios para cada módulo, dando uma breve descrição em estilo de terminal.
-
-5.  **Tabela de Domínios**:
-
-      * Mantive a tabela, mas a linguagem introdutória e conclusiva foi ajustada para ser mais "cyber".
-
-6.  **Seções de Colaboração e Licença**:
-
-      * Reescrevi essas seções para usar a mesma linguagem "protocolo" e "sistema".
-
-7.  **Rodapé Final**:
-
-      * O rodapé final tem um prompt de terminal com seu nome e um `// END OF REPORT //`.
-
-**Pontos Importantes para Você:**
-
-1.  **Imagem do Título**: Você **precisa** criar uma imagem de terminal para o topo do `README` e hospedar em algum lugar (seu próprio repositório, Imgur, etc.). O link `https://i.imgur.com/2X9C2Yw.png` é um placeholder. **Se você não puder criar ou hospedar a imagem, me avise, e eu ajusto o título para ser puramente texto, mas ainda estilizado.**
-2.  **Badges**: Os badges estão comentados. Para usá-los, você pode ir no [Shields.io](https://shields.io/), criar seus próprios badges (com logos de ferramentas, status de conclusão, etc.) e substituir os links de exemplo. Lembre-se de usar `?style=for-the-badge` para um visual maior e mais "cyber".
-3.  **Consistência**: Ao adicionar seus arquivos nas pastas dos módulos, tente manter a linguagem e o estilo que este `README` sugere, se desejar uma imersão total.
-
-Este `README.md` agora tem um visual e uma linguagem muito mais alinhados com o que você pediu para um relatório "hacker/cybersecurity".
+├── Modulo 01 - Introducao ao Ethical Hacking/
+├── Modulo 02 - Footprinting e Reconnaissance/
+├── Modulo 02 - Labs/
+├── Modulo 03 - Scanning Networks/
+├── Modulo 04 - Enumeration/
+├── Modulo 04 - Labs/
+├── Modulo 05 - Vulnerability Analysis/
+├── Modulo 06 - System Hacking/
+├── Modulo 07 - Malware/
+├── Modulo 08 - Sniffing/
+├── Modulo 08 - Labs/
+├── Modulo 09 - Social Engineering/
+├── Modulo 10 - Denial-of-Service/
+├── Modulo 10 - Labs/
+├── Modulo 11 - Session Hijacking/
+├── Modulo 12 - Evading IDS, Firewalls, and Honeypots/
+├── Modulo 12 - Labs/
+├── Modulo 13 - Hacking Web Servers/
+├── Modulo 14 - Hacking Web Applications/
+├── Modulo 14 - Labs/
+├── Modulo 15 - SQL Injection/
+├── Modulo 16 - Hacking Wireless Networks/
+├── Modulo 17 - Hacking Mobile Platforms/
+├── Modulo 18 - IoT and OT Hacking/
+├── Modulo 18 - Labs/
+├── Modulo 19 - Cloud Computing/
+├── Modulo 20 - Cryptography/
+├── Modulo 20 - Labs/
+└── README.md
+
+
+Dentro de cada pasta de módulo, você encontrará uma compilação de:
+* **Documentação Teórica**: Anotações, resumos e conceitos-chave do módulo.
+* **Códigos e Scripts**: Implementações práticas, *proofs of concept* (PoCs) e exemplos de uso de ferramentas.
+* **Resultados de Laboratórios**: Evidências, configurações e *logs* de exercícios práticos.
+
+---
+
+## ⚙️ Módulos de Conhecimento: Detalhamento por Domínio
+
+A seguir, a discriminação dos módulos do CEH v13 abordados neste repositório, cada um representando um domínio crítico na segurança cibernética:
+
+| Módulo | Tópico Principal | Conteúdo Programático Essencial |
+| :----- | :--------------- | :------------------------------ |
+| `01`   | Introdução ao Ethical Hacking | Fundamentos, fases do hacking e princípios éticos. |
+| `02`   | Footprinting e Reconnaissance | Coleta de informações: passiva, ativa (OSINT, Whois, etc.). |
+| `03`   | Scanning Networks | Varredura de rede, descoberta de hosts, portas e serviços. |
+| `04`   | Enumeration | Identificação detalhada de usuários, recursos e serviços de rede. |
+| `05`   | Vulnerability Analysis | Escaneamento e análise sistemática de vulnerabilidades. |
+| `06`   | System Hacking | Exploração de sistemas operacionais e técnicas de escalonamento de privilégios. |
+| `07`   | Malware | Análise de diversos tipos de *malware*, infecção e prevenção. |
+| `08`   | Sniffing | Interceptação e análise de tráfego de rede para extração de informações. |
+| `09`   | Social Engineering | Ataques baseados em manipulação psicológica e suas contramedidas. |
+| `10`   | Denial-of-Service | Ataques de negação de serviço (DoS/DDoS) e estratégias de mitigação. |
+| `11`   | Session Hijacking | Roubo e exploração de sessões de comunicação ativas. |
+| `12`   | Evading IDS, Firewalls, and Honeypots | Técnicas para bypass de sistemas de segurança e detecção. |
+| `13`   | Hacking Web Servers | Avaliação de segurança e ataques comuns a servidores web. |
+| `14`   | Hacking Web Applications | Exploração de vulnerabilidades em aplicações web (com foco no OWASP Top 10). |
+| `15`   | SQL Injection | Técnicas de injeção SQL para comprometer bancos de dados. |
+| `16`   | Hacking Wireless Networks | Segurança e ataques a redes sem fio (Wi-Fi). |
+| `17`   | Hacking Mobile Platforms | Análise de vulnerabilidades em dispositivos e aplicações móveis. |
+| `18`   | IoT and OT Hacking | Desafios de segurança em Internet das Coisas (IoT) e Tecnologia Operacional (OT). |
+| `19`   | Cloud Computing | Riscos de segurança e melhores práticas em ambientes de nuvem. |
+| `20`   | Cryptography | Fundamentos, algoritmos e análise de vulnerabilidades criptográficas. |
+
+---
+
+## 🤝 Contato e Colaboração
+
+Este repositório é um artefato da minha expertise no CEH v13. Para quaisquer dúvidas, insights ou propostas de colaboração técnica relativas ao conteúdo, sinta-se à vontade para entrar em contato.
+
+---
+
+## 📄 Licença de Uso
+
+Todo o material contido neste repositório é distribuído sob a licença [MIT License](LICENSE). Esteja à vontade para explorar, aprender e utilizar o conteúdo para seus estudos e pesquisas pessoais, em conformidade com os termos especificados.
+
+---
+
+<p align="center">
+  <em>Análise. Exploração. Proteção.</em>
+  <br>
+  <span>D1xgxs3c &copy; 2025 - CyberOps</span>
+</p>
