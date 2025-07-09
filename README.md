@@ -31,38 +31,6 @@ Este projeto demonstra a capacidade de:
 
 A organização deste repositório foi meticulosamente planejada para espelhar a estrutura modular do curso CEH v13, facilitando a navegação e o acesso ao conteúdo específico. Cada diretório principal corresponde a um módulo, e contém subdiretórios ou arquivos para laboratórios e materiais complementares.
 
-.
-├── Modulo 01 - Introducao ao Ethical Hacking/
-├── Modulo 02 - Footprinting e Reconnaissance/
-├── Modulo 02 - Labs/
-├── Modulo 03 - Scanning Networks/
-├── Modulo 04 - Enumeration/
-├── Modulo 04 - Labs/
-├── Modulo 05 - Vulnerability Analysis/
-├── Modulo 06 - System Hacking/
-├── Modulo 07 - Malware/
-├── Modulo 08 - Sniffing/
-├── Modulo 08 - Labs/
-├── Modulo 09 - Social Engineering/
-├── Modulo 10 - Denial-of-Service/
-├── Modulo 10 - Labs/
-├── Modulo 11 - Session Hijacking/
-├── Modulo 12 - Evading IDS, Firewalls, and Honeypots/
-├── Modulo 12 - Labs/
-├── Modulo 13 - Hacking Web Servers/
-├── Modulo 14 - Hacking Web Applications/
-├── Modulo 14 - Labs/
-├── Modulo 15 - SQL Injection/
-├── Modulo 16 - Hacking Wireless Networks/
-├── Modulo 17 - Hacking Mobile Platforms/
-├── Modulo 18 - IoT and OT Hacking/
-├── Modulo 18 - Labs/
-├── Modulo 19 - Cloud Computing/
-├── Modulo 20 - Cryptography/
-├── Modulo 20 - Labs/
-└── README.md
-
-
 Dentro de cada pasta de módulo, você encontrará uma compilação de:
 * **Documentação Teórica**: Anotações, resumos e conceitos-chave do módulo.
 * **Códigos e Scripts**: Implementações práticas, *proofs of concept* (PoCs) e exemplos de uso de ferramentas.
