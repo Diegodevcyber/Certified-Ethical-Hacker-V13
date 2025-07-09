@@ -1,4 +1,3 @@
-<p align="center">
 
 <p align="center">
   <span style="color: #9fef00; font-family: 'Courier New', Courier, monospace; font-size: 1.2em; animation: moveText 5s linear infinite;">
@@ -6,16 +5,7 @@
   </span>
 </p>
 
-
-
 # 🚀 Relatório de Operações: CEH v13 🚀
-
-
-
-
-
-<p align="center">
-
 
 
   <em>Desvendando o cenário cibernético: Hacking Ético e Cybersegurança na prática.</em>
