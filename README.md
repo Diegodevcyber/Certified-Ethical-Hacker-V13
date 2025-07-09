@@ -1,16 +1,50 @@
 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Relatório de Operações: CEH v13</title>
+    <style>
+        @keyframes moveText {
+            0% { transform: translateX(-100%); }
+            100% { transform: translateX(100%); }
+        }
+        body {
+            font-family: Arial, sans-serif; /* Just an example, you can remove this */
+        }
+    </style>
+</head>
+<body>
+
 <p align="center">
-  <span style="color: #9fef00; font-family: 'Courier New', Courier, monospace; font-size: 1.2em; animation: moveText 5s linear infinite;">
-    DESCRIPTOGRAFANDO O FUTURO: CÓDIGO ESTRATÉGICO EM MOVIMENTO
-  </span>
+    <span style="color: #9fef00; font-family: 'Courier New', Courier, monospace; font-size: 1.2em; animation: moveText 5s linear infinite;">
+        DESCRIPTOGRAFANDO O FUTURO: CÓDIGO ESTRATÉGICO EM MOVIMENTO
+    </span>
 </p>
 
-<style>
-@keyframes moveText {
-  0% { transform: translateX(-100%); }
-  100% { transform: translateX(100%); }
-}
-</style>
+<p align="center">
+ # 🚀 Relatório de Operações: CEH v13 🚀
+</p>
+
+ <p align="center">
+    <em>Desvendando o cenário cibernético: Hacking Ético e Cybersegurança na prática.</em>
+ </p>
+
+ ---
+
+ ## 🎯 Visão Geral do Projeto
+
+ Este repositório é um **compêndio abrangente e consolidado** de todo o conhecimento, metodologias, ferramentas e práticas desenvolvidas durante o programa de certificação **CEH v13 (Certified Ethical Hacker)**. Ele serve como um registro detalhado da minha jornada em segurança ofensiva, abordando as táticas e técnicas utilizadas por adversários para identificar e mitigar vulnerabilidades em sistemas e redes.
+
+ <p align="center">
+    <em>Análise. Exploração. Proteção.</em>
+    <br>
+    <span>D1xgxs3c &copy; 2025 - CyberOps</span>
+ </p>
+
+</body>
+</html>
 
 <p align="center">
 # 🚀 Relatório de Operações: CEH v13 🚀
