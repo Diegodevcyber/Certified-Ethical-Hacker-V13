@@ -5,7 +5,7 @@
 </p>
 
 
-<p color="#9fef00" align="center">
+<p style="color: #9fef00" align="center">
 
 
 
