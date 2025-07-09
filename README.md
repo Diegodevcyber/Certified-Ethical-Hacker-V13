@@ -1,4 +1,11 @@
 <p align="center">
+  <span style="color: #9fef00; font-family: 'Courier New', Courier, monospace; font-size: 1.2em; animation: moveText 5s linear infinite;">
+    DESCRIPTOGRAFANDO O FUTURO: CÓDIGO ESTRATÉGICO EM MOVIMENTO
+  </span>
+</p>
+
+
+<p align="center">
 
 
 
