@@ -1,345 +1,190 @@
-<!DOCTYPE html>
-<html lang="pt-BR">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>CEH v13 Project CyberSentinel - Relatório de Operações</title>
-    <link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;700&display=swap" rel="stylesheet">
-    <style>
-        /* Estilos Globais */
-        body {
-            background-color: #0d1117; /* Fundo escuro */
-            color: #00ff00; /* Texto verde neon */
-            font-family: 'Fira Code', monospace; /* Fonte estilo terminal */
-            line-height: 1.6;
-            margin: 20px;
-            padding: 0;
-            overflow-x: hidden; /* Evita scroll horizontal */
-        }
+# CEH v13 - Certificação Ethical Hacker
 
-        .container {
-            max-width: 900px;
-            margin: 0 auto;
-            padding: 20px;
-            border: 1px solid #30363d; /* Borda sutil */
-            border-radius: 8px;
-            box-shadow: 0 0 15px rgba(0, 255, 0, 0.2); /* Sombra neon */
-        }
+Bem-vindo ao meu repositório de estudos e projetos para a certificação **CEH v13 (Certified Ethical Hacker)**. Este repositório tem como objetivo consolidar os conhecimentos, ferramentas e códigos desenvolvidos durante o curso, seguindo a estrutura dos módulos do CEH v13.
 
-        h1, h2, h3, h4, h5, h6 {
-            color: #00ff00; /* Títulos em verde neon */
-            text-shadow: 0 0 5px rgba(0, 255, 0, 0.5); /* Sombra para títulos */
-            border-bottom: 1px dashed #30363d;
-            padding-bottom: 5px;
-            margin-top: 30px;
-        }
+## Sobre a Certificação CEH v13
 
-        h1 { font-size: 2.5em; text-align: center; }
-        h2 { font-size: 1.8em; }
-        h3 { font-size: 1.4em; }
+A certificação Certified Ethical Hacker (CEH) é uma qualificação fundamental para profissionais de segurança da informação, focada em técnicas e metodologias de hacking ético. Ela cobre diversas áreas, desde a fase de reconhecimento até a exploração e pós-exploração, sempre com o objetivo de identificar vulnerabilidades para melhorar a segurança de sistemas e redes.
 
-        a {
-            color: #00ffff; /* Links em ciano neon */
-            text-decoration: none;
-            transition: color 0.3s ease;
-        }
+## Estrutura do Repositório
 
-        a:hover {
-            color: #00ccff;
-            text-decoration: underline;
-        }
+Este repositório está organizado de acordo com os módulos do curso CEH v13. Cada módulo principal possui uma pasta dedicada (e.g., `Modulo 01 - Introducao ao Ethical Hacking`). Dentro dessas pastas, você encontrará os arquivos de código, scripts, anotações e outros recursos relacionados aos tópicos do módulo. Além disso, para alguns módulos, há subpastas de `Labs` (`Modulo XX - Labs`), que contêm exercícios práticos e as soluções desenvolvidas.
 
-        /* Estilos para Badges e GIFs */
-        .center-content {
-            text-align: center;
-            margin-bottom: 20px;
-        }
+---
 
-        .center-content img {
-            margin: 5px;
-            border-radius: 5px;
-        }
+### Módulos e Tópicos
 
-        /* Estilos de Bloco de Código / Terminal */
-        pre, code {
-            background-color: #161b22; /* Fundo mais escuro para blocos de código */
-            color: #00ff00;
-            padding: 10px;
-            border-radius: 5px;
-            overflow-x: auto; /* Scroll para código longo */
-            font-size: 0.9em;
-            border: 1px solid #21262d;
-            margin-bottom: 15px;
-        }
+A seguir, a lista dos módulos do CEH v13 e o que você encontrará em cada seção:
 
-        .bash-output {
-            color: #00ff00; /* Verde para output de terminal */
-        }
+#### 1. Módulo 01 - Introdução ao Ethical Hacking
+- Conceitos básicos de hacking ético, tipos de hackers e fases do hacking.
+- Legislação e ética em segurança da informação.
+- **[Seus códigos/anotações estarão em `Modulo 01 - Introducao ao Ethical Hacking/`]**
+    - Exemplo: [Introducao.md](Modulo%2001%20-%20Introducao%20ao%20Ethical%20Hacking/Introducao.md)
+    - Exemplo: [Scripts_Iniciais.py](Modulo%2001%20-%20Introducao%20ao%20Ethical%20Hacking/Scripts_Iniciais.py)
 
-        .json-output {
-            color: #ff00ff; /* Magenta para JSON */
-        }
+#### 2. Módulo 02 - Footprinting e Reconnaissance
+- Coleta de informações passiva e ativa, feramentas de OSINT.
+- Técnicas de reconhecimento de alvos.
+- **[Seus códigos/anotações estarão em `Modulo 02 - Footprinting e Reconnaissance/`]**
+    - Exemplo: [Footprinting_Tools.md](Modulo%2002%20-%20Footprinting%20e%20Reconnaissance/Footprinting_Tools.md)
 
-        /* Estilos de Lista */
-        ul {
-            list-style: none;
-            padding-left: 20px;
-        }
+#### 3. Módulo 02 - Labs
+- Laboratórios práticos relacionados a Footprinting e Reconnaissance.
+- **[Seus arquivos de laboratório estarão em `Modulo 02 - Labs/`]**
+    - Exemplo: [Lab_OSINT.md](Modulo%2002%20-%20Labs/Lab_OSINT.md)
 
-        ul li::before {
-            content: ">> ";
-            color: #00ffff; /* Ciano para marcadores de lista */
-            font-weight: bold;
-        }
+#### 4. Módulo 03 - Scanning Networks
+- Técnicas de varredura de rede (port scanning, host discovery).
+- Identificação de serviços e sistemas operacionais.
+- Ferramentas como Nmap, hping.
+- **[Seus códigos/anotações estarão em `Modulo 03 - Scanning Networks/`]**
+    - Exemplo: [Nmap_Scripts.sh](Modulo%2003%20-%20Scanning%20Networks/Nmap_Scripts.sh)
 
-        /* Tabela de Módulos */
-        table {
-            width: 100%;
-            border-collapse: collapse;
-            margin-top: 15px;
-        }
+#### 5. Módulo 04 - Enumeration
+- Enumeração de usuários, grupos, recursos compartilhados.
+- SNMP, NetBIOS, LDAP enumeration.
+- **[Seus códigos/anotações estarão em `Modulo 04 - Enumeration/`]**
+    - Exemplo: [SMB_Enumeration.md](Modulo%2004%20-%20Enumeration/SMB_Enumeration.md)
 
-        th, td {
-            border: 1px solid #21262d;
-            padding: 8px;
-            text-align: left;
-            color: #00ff00;
-        }
+#### 6. Módulo 04 - Labs
+- Laboratórios práticos relacionados a Enumeração.
+- **[Seus arquivos de laboratório estarão em `Modulo 04 - Labs/`]**
+    - Exemplo: [Lab_SNMP.md](Modulo%2004%20-%20Labs/Lab_SNMP.md)
 
-        th {
-            background-color: #161b22;
-            color: #00ffff;
-            text-transform: uppercase;
-        }
+#### 7. Módulo 05 - Vulnerability Analysis
+- Identificação e análise de vulnerabilidades.
+- Ferramentas de varredura de vulnerabilidades (ex: Nessus, OpenVAS).
+- Classificação de vulnerabilidades (CVSS).
+- **[Seus códigos/anotações estarão em `Modulo 05 - Vulnerability Analysis/`]**
+    - Exemplo: [Vulnerability_Scanning.md](Modulo%2005%20-%20Vulnerability%20Analysis/Vulnerability_Scanning.md)
 
-        /* Detalhes (Collapsible) */
-        details {
-            background-color: #161b22;
-            border: 1px solid #21262d;
-            border-radius: 5px;
-            margin-top: 20px;
-            padding: 10px;
-        }
+#### 8. Módulo 06 - System Hacking
+- Ataques a sistemas operacionais (Windows, Linux), exploração de vulnerabilidades.
+- Manutenção de acesso e escalonamento de privilégios.
+- **[Seus códigos/anotações estarão em `Modulo 06 - System Hacking/`]**
+    - Exemplo: [Privilege_Escalation.md](Modulo%2006%20-%20System%20Hacking/Privilege_Escalation.md)
 
-        summary {
-            cursor: pointer;
-            color: #00ffff;
-            font-weight: bold;
-            padding: 5px;
-            outline: none;
-        }
+#### 9. Módulo 07 - Malware
+- Tipos de malware (vírus, worms, trojans, ransomware).
+- Análise de malware, técnicas de proteção e detecção.
+- **[Seus códigos/anotações estarão em `Modulo 07 - Malware/`]**
+    - Exemplo: [Malware_Analysis_Tools.md](Modulo%2007%20-%20Malware/Malware_Analysis_Tools.md)
 
-        summary:hover {
-            color: #00ccff;
-        }
+#### 10. Módulo 08 - Sniffing
+- Captura e análise de tráfego de rede.
+- Ferramentas como Wireshark, ataques de sniffing (ARP spoofing).
+- **[Seus códigos/anotações estarão em `Modulo 08 - Sniffing/`]**
+    - Exemplo: [Wireshark_Filters.md](Modulo%2008%20-%20Sniffing/Wireshark_Filters.md)
 
-        /* Barra de Progresso */
-        .progress-bar {
-            background-color: #21262d;
-            border-radius: 5px;
-            height: 20px;
-            margin-top: 10px;
-            overflow: hidden;
-        }
+#### 11. Módulo 08 - Labs
+- Laboratórios práticos relacionados a Sniffing.
+- **[Seus arquivos de laboratório estarão em `Modulo 08 - Labs/`]**
+    - Exemplo: [Lab_ARP_Spoofing.md](Modulo%2008%20-%20Labs/Lab_ARP_Spoofing.md)
 
-        .progress-fill {
-            width: 100%; /* Exemplo: 100% para estrutura completa */
-            height: 100%;
-            background-color: #00ff00;
-            border-radius: 5px;
-            box-shadow: 0 0 8px rgba(0, 255, 0, 0.5);
-        }
+#### 12. Módulo 09 - Social Engineering
+- Técnicas de engenharia social (phishing, pretexting).
+- Ataques baseados em interação humana, medidas de prevenção.
+- **[Seus códigos/anotações estarão em `Modulo 09 - Social Engineering/`]**
+    - Exemplo: [Phishing_Templates.md](Modulo%2009%20-%20Social%20Engineering/Phishing_Templates.md)
 
-    </style>
-</head>
-<body>
-    <div class="container">
-        <h1 style="font-size: 3em;">⚡️ CEH v13 :: Project CyberSentinel // Log de Operações D3dg3s ⚡️</h1>
+#### 13. Módulo 10 - Denial-of-Service
+- Ataques de negação de serviço (DoS) e negação de serviço distribuído (DDoS).
+- Ferramentas e métodos de ataque, contramedidas.
+- **[Seus códigos/anotações estarão em `Modulo 10 - Denial-of-Service/`]**
+    - Exemplo: [DoS_Methods.md](Modulo%2010%20-%20Denial-of-Service/DoS_Methods.md)
 
-        <p class="center-content">
-            <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&color=00FF00&size=35&center=true&vCenter=true&width=700&lines=D3dg3s%20CyberSec%20//%20CEH%20v13%20Operational%20Log;Acompanhando%20a%20Jornada%20do%20Ethical%20Hacker;Decifrando%20M%C3%B3dulos%20de%20Seguran%C3%A7a" alt="Typing SVG Banner">
-        </p>
+#### 14. Módulo 10 - Labs
+- Laboratórios práticos relacionados a Denial-of-Service.
+- **[Seus arquivos de laboratório estarão em `Modulo 10 - Labs/`]**
+    - Exemplo: [Lab_DoS_Tools.md](Modulo%2010%20-%20Labs/Lab_DoS_Tools.md)
 
-        <p class="center-content">
-            <img src="https://img.shields.io/badge/Certifica%C3%A7%C3%A3o-CEH%20v13-blueviolet?style=for-the-badge&logo=hackthebox&logoColor=white" alt="Badge CEH v13">
-            <img src="https://img.shields.io/badge/Status-Criptografando%20Conhecimento-important?style=for-the-badge&logo=codecademy&logoColor=white" alt="Badge Status Criptografando Conhecimento">
-            <img src="https://img.shields.io/badge/%C3%9Altimoo%20Log%20Atualizado-09%20Jul%202025-lightgrey?style=for-the-badge" alt="Badge Último Log Atualizado">
-        </p>
+#### 15. Módulo 11 - Session Hijacking
+- Roubo de sessão, métodos de hijacking de sessão, prevenção.
+- **[Seus códigos/anotações estarão em `Modulo 11 - Session Hijacking/`]**
+    - Exemplo: [Session_Hijacking_Techniques.md](Modulo%2011%20-%20Session%20Hijacking/Session_Hijacking_Techniques.md)
 
-        <p class="center-content">
-            <img src="https://media.giphy.com/media/xT9IAqfF2T4z9n1JjW/giphy.gif" width="600" alt="Animated Terminal Hacker GIF - Substitua por um GIF relevante: Terminal digitando, visualização de dados, ou algo 'cyber'. Procure em Giphy ou similar.">
-        </p>
+#### 16. Módulo 12 - Evading IDS, Firewalls, and Honeypots
+- Técnicas para evadir sistemas de detecção de intrusão (IDS).
+- Bypass de firewalls, detecção e interação com honeypots.
+- **[Seus códigos/anotações estarão em `Modulo 12 - Evading IDS, Firewalls, and Honeypots/`]**
+    - Exemplo: [IDS_Evasion.md](Modulo%2012%20-%20Evading%20IDS%2C%20Firewalls%2C%20and%20Honeypots/IDS_Evasion.md)
 
-        <h2>**1. 🎯 :: Protocolo de Início :: Visão Geral e Objetivo da Missão**</h2>
-        <pre><code class="bash-output">root@D3dg3s_Workstation:~# cat /project/manifesto.txt
-[+] Bem-vindos ao meu repositório de inteligência cibernética.
-[+] Este log detalha a jornada operacional e o acúmulo de expertise para a certificação
-[+] Certified Ethical Hacker (CEH) v13.
-[+] A meta é simples: consolidar, aplicar e demonstrar o domínio das táticas de segurança ofensiva.
-[+] Analisando dados... Concluído.</code></pre>
-        <p>Este repositório não é apenas um diretório de arquivos; é uma <strong>rede de dados interativa e um portfólio técnico dinâmico</strong>, construído para mapear minha progressão no universo do hacking ético. Ele serve como uma <strong>auditoria transparente e um registro de campo</strong> das minhas habilidades em cibersegurança.</p>
-        <p>Minha missão primária é apresentar uma evidência clara e estruturada da minha capacidade de executar e analisar operações de segurança. Este material é ideal para <strong>avaliação por recrutadores de elite, para validação com pares da indústria e como um recurso de conhecimento aberto</strong> para a comunidade.</p>
+#### 17. Módulo 12 - Labs
+- Laboratórios práticos relacionados a Evading IDS, Firewalls, and Honeypots.
+- **[Seus arquivos de laboratório estarão em `Modulo 12 - Labs/`]**
+    - Exemplo: [Lab_Firewall_Bypass.md](Modulo%2012%20-%20Labs/Lab_Firewall_Bypass.md)
 
-        <h2>**2. 📁 :: Topografia da Rede :: Arquitetura e Framework Operacional**</h2>
-        <h3>2.1. Metadados do Host</h3>
-        <ul>
-            <li><strong>Codinome do Projeto:</strong> <code>D3dg3s/CEH_v13_CipherLog</code> (Sugestão de nome para impacto "hacker"!)</li>
-            <li><strong>Ponto de Acesso GitHub:</strong> <a href="https://github.com/D3dg3s/adiciona-restoria-inicial-de-estudos-CEH-v13">https://github.com/D3dg3s/adiciona-restoria-inicial-de-estudos-CEH-v13</a> *(<strong>ALERTA</strong>: Atualize este link com o URL real do seu repositório!)*</li>
-            <li><strong>Linguagem Principal de Scripting:</strong> 🐍 Python (<code class="bash-output">print("Iniciando varredura profunda...")</code>) - Meu motor para automatização de rotinas, desenvolvimento de Provas de Conceito (PoCs), engenharia reversa de conceitos e criação de ferramentas sob demanda.</li>
-        </ul>
+#### 18. Módulo 13 - Hacking Web Servers
+- Ataques a servidores web (IIS, Apache, Nginx).
+- Configurações seguras e vulnerabilidades comuns.
+- **[Seus códigos/anotações estarão em `Modulo 13 - Hacking Web Servers/`]**
+    - Exemplo: [Webserver_Attacks.md](Modulo%2013%20-%20Hacking%20Web%20Servers/Webserver_Attacks.md)
 
-        <h3>2.2. Mapeamento de Módulos (Estrutura de Dados)</h3>
-        <p>A arquitetura do repositório espelha com precisão a estrutura de curso do CEH v13, com <strong>20 compartimentos de dados principais</strong>. Cada diretório de módulo (<code>Módulo XX - [Título do Módulo]</code>) é um micro-cosmos dedicado a conter:</p>
-        <ul>
-            <li><strong><code>0x00_INTELIGENCIA/</code></strong>: <code>ANOTACOES.md</code>, <code>MAPAS_MENTAIS.png</code>, <code>RESUMOS_CONCEITUAIS.pdf</code> - Dados de inteligência teórica, anotações de aula, e documentação primária do módulo.</li>
-            <li><strong><code>0x01_LAB_REPORTS/</code></strong>: <code>LAB_ID_XXX_RELATORIO.md</code>, <code>CAPTURES/</code>, <code>LOGS/</code>, <code>ANALISE_POS_OP.md</code> - Relatórios detalhamentos de exercícios práticos, incluindo:
-                <ul>
-                    <li><code>SETUP/</code>: Diagramas de topologia de rede e configurações de VMs.</li>
-                    <li><code>PASSOS_OPERACIONAIS/</code>: Sequência de comandos executados e justificativas técnicas.</li>
-                    <li><code>EVIDENCIAS/</code>: Capturas de tela (screenshots), GIFs animados de execuções de exploits e logs de saída das ferramentas.</li>
-                    <li><code>ANALISE_CRITICA/</code>: Lições aprendidas, vulnerabilidades exploradas, e propostas de mitigação.</li>
-                </ul>
-            </li>
-            <li><strong><code>0x02_FERRAMENTAS_CUSTOM/</code></strong>: <code>script_personalizado.py</code>, <code>payloads/</code>, <code>config_templates/</code> - Scripts desenvolvidos, payloads personalizados e configurações de ferramentas utilizadas ou modificadas.</li>
-            <li><strong><code>0x03_RECURSOS/</code></strong>: <code>RFCs/</code>, <code>PAPERS_PESQUISA/</code>, <code>LINKS_UTEIS.md</code> - Biblioteca de recursos externos para aprofundamento.</li>
-        </ul>
+#### 19. Módulo 14 - Hacking Web Applications
+- OWASP Top 10, ataques comuns a aplicações web (XSS, CSRF, RFI/LFI, XXE).
+- Ferramentas de teste de aplicação web (Burp Suite, OWASP ZAP).
+- **[Seus códigos/anotações estarão em `Modulo 14 - Hacking Web Applications/`]**
+    - Exemplo: [XSS_Examples.js](Modulo%2014%20-%20Hacking%20Web%20Applications/XSS_Examples.js)
 
-        <h3>2.3. Protocolo de Engajamento (Metodologia de Estudo)</h3>
-        <p>Minha metodologia de aprendizado é um ciclo contínuo de <strong>Investigação -> Execução -> Validação -> Documentação</strong>:</p>
-        <ol>
-            <li><strong>Fase 1: Coleta de Dados (Teoria):</strong> Imersão nos conceitos fundamentais de cada módulo do CEH v13.</li>
-            <li><strong>Fase 2: Simulação de Ataque (Prática):</strong> Reconstrução e execução de cenários de ataque em ambientes controlados e realistas.</li>
-            <li><strong>Fase 3: Desenvolvimento de Ferramentas (Customização):</strong> Codificação de scripts para automação, análise de dados ou criação de PoCs.</li>
-            <li><strong>Fase 4: Análise Forense e Relato:</strong> Documentação minuciosa de cada passo, resultado e descoberta, transformando dados brutos em inteligência acionável.</li>
-            <li><strong>Fase 5: Otimização e Debug:</strong> Revisão crítica do material e das técnicas para aprimoramento contínuo.</li>
-        </ol>
+#### 20. Módulo 14 - Labs
+- Laboratórios práticos relacionados a Hacking Web Applications.
+- **[Seus arquivos de laboratório estarão em `Modulo 14 - Labs/`]**
+    - Exemplo: [Lab_SQLi_App.md](Modulo%2014%20-%20Labs/Lab_SQLi_App.md)
 
-        <h2>**3. 📚 :: Mapeamento de Credenciais :: Log de Progresso por Módulo**</h2>
-        <p>A arquitetura base dos 20 módulos do CEH v13 está ativa e aguarda a injeção completa de conteúdo. Esta estrutura reflete uma abordagem sistemática para a maestria do currículo.</p>
+#### 21. Módulo 15 - SQL Injection
+- Tipos de injeção SQL, técnicas de exploração, prevenção de injeção SQL.
+- **[Seus códigos/anotações estarão em `Modulo 15 - SQL Injection/`]**
+    - Exemplo: [SQLi_Cheatsheet.md](Modulo%2015%20-%20SQL%20Injection/SQLi_Cheatsheet.md)
 
-        <div class="progress-bar">
-            <div class="progress-fill"></div>
-        </div>
-        <p class="center-content"><code>[████████████████████████████████] 100% Carga Base Completa</code></p>
+#### 22. Módulo 16 - Hacking Wireless Networks
+- Ataques a redes Wi-Fi (WEP, WPA/WPA2 cracking).
+- Ferramentas como Aircrack-ng, segurança de redes sem fio.
+- **[Seus códigos/anotações estarão em `Modulo 16 - Hacking Wireless Networks/`]**
+    - Exemplo: [Aircrack_Commands.md](Modulo%2016%20-%20Hacking%20Wireless%20Networks/Aircrack_Commands.md)
 
-        <details>
-            <summary>:: Decifrar Log de Módulos (Clique para expandir) ::</summary>
-            <table>
-                <thead>
-                    <tr>
-                        <th>ID</th>
-                        <th>Módulo CEH v13</th>
-                        <th>Status de Documentação</th>
-                    </tr>
-                </thead>
-                <tbody>
-                    <tr><td><code>0x00</code></td><td>Bem-vindo ao Certified Ethical Hacker</td><td>⚙️ <code>SYSTEM_INIT</code></td></tr>
-                    <tr><td><code>0x01</code></td><td>Introdução ao Hacking Ético</td><td>⚙️ <code>FUNDAMENTALS_SCAN</code></td></tr>
-                    <tr><td><code>0x02</code></td><td>Footprinting e Reconhecimento</td><td>⚙️ <code>INTEL_GATHERING</code></td></tr>
-                    <tr><td><code>0x03</code></td><td>Varredura de Redes</td><td>⚙️ <code>NETWORK_PROBE</code></td></tr>
-                    <tr><td><code>0x04</code></td><td>Enumeração</td><td>⚙️ <code>RESOURCE_DISCOVERY</code></td></tr>
-                    <tr><td><code>0x05</code></td><td>Análise de Vulnerabilidades</td><td>⚙️ <code>WEAKNESS_ASSESSMENT</code></td></tr>
-                    <tr><td><code>0x06</code></td><td>Hacking de Sistemas</td><td>⚙️ <code>SYSTEM_COMPROMISE</code></td></tr>
-                    <tr><td><code>0x07</code></td><td>Ameaças de Malware</td><td>⚙️ <code>MALWARE_ANALYSIS</code></td></tr>
-                    <tr><td><code>0x08</code></td><td>Sniffing</td><td>⚙️ <code>DATA_INTERCEPTION</code></td></tr>
-                    <tr><td><code>0x09</code></td><td>Engenharia Social</td><td>⚙️ <code>HUMAN_EXPLOITATION</code></td></tr>
-                    <tr><td><code>0x0A</code></td><td>Negação de Serviço (DoS)</td><td>⚙️ <code>SERVICE_DISRUPTION</code></td></tr>
-                    <tr><td><code>0x0B</code></td><td>Sequestro de Sessão</td><td>⚙️ <code>SESSION_HIJACK</code></td></tr>
-                    <tr><td><code>0x0C</code></td><td>Evasão de IDS, Firewalls e Honeypots</td><td>⚙️ <code>DEFENSE_EVASION</code></td></tr>
-                    <tr><td><code>0x0D</code></td><td>Hacking de Servidores Web</td><td>⚙️ <code>WEB_SERVER_EXPLOIT</code></td></tr>
-                    <tr><td><code>0x0E</code></td><td>Hacking de Aplicações Web</td><td>⚙️ <code>WEB_APP_EXPLOIT</code></td></tr>
-                    <tr><td><code>0x0F</code></td><td>SQL Injection</td><td>⚙️ <code>SQL_INJECTION</code></td></tr>
-                    <tr><td><code>0x10</code></td><td>Hacking de Redes Wireless</td><td>⚙️ <code>WIRELESS_COMPROMISE</code></td></tr>
-                    <tr><td><code>0x11</code></td><td>Hacking de Plataformas Móveis</td><td>⚙️ <code>MOBILE_EXPLOIT</code></td></tr>
-                    <tr><td><code>0x12</code></td><td>Hacking de IoT e OT</td><td>⚙️ <code>IOT_OT_PENETRATION</code></td></tr>
-                    <tr><td><code>0x13</code></td><td>Computação em Nuvem</td><td>⚙️ <code>CLOUD_SECURITY</code></td></tr>
-                    <tr><td><code>0x14</code></td><td>Criptografia</td><td>⚙️ <code>CRYPTOGRAPHY_ANALYSIS</code></td></tr>
-                </tbody>
-            </table>
-        </details>
+#### 23. Módulo 17 - Hacking Mobile Platforms
+- Vulnerabilidades em sistemas operacionais móveis (Android, iOS).
+- Ataques a aplicações móveis, segurança de dispositivos móveis.
+- **[Seus códigos/anotações estarão em `Modulo 17 - Hacking Mobile Platforms/`]**
+    - Exemplo: [Android_Exploits.md](Modulo%2017%20-%20Hacking%20Mobile%20Platforms/Android_Exploits.md)
 
-        <h2>**4. 🛠️ :: Kit de Ferramentas Operacional e Ambientes de Simulação**</h2>
-        <p>Para a execução de operações táticas e o aprimoramento de habilidades, o seguinte arsenal de ferramentas e ambientes é constantemente mobilizado:</p>
-        <ul>
-            <li><strong>Plataformas de Virtualização (Sandboxes Seguras):</strong>
-                <ul>
-                    <li><strong>VirtualBox / VMware Workstation:</strong> Meus campos de treinamento virtuais para construir e destruir sistemas de forma controlada (Kali Linux, Windows Server, VMs vulneráveis).</li>
-                </ul>
-                <p class="center-content">
-                    <img src="https://media.giphy.com/media/v1.gif" width="300" alt="GIF de VM bootando"> <!-- SUBSTITUA POR UM GIF DE VM BOOTANDO OU DE AMBIENTE VIRTUAL -->
-                </p>
-            </li>
-            <li><strong>Sistemas Operacionais (Plataformas de Ataque/Defesa):</strong>
-                <ul>
-                    <li><strong>Kali Linux:</strong> A distribuição definitiva para o operador de segurança ofensiva.</li>
-                    <li><strong>Windows Server / Cliente:</strong> Para engenharia reversa de ambientes corporativos e suas vulnerabilidades.</li>
-                </ul>
-            </li>
-            <li><strong>Campos de Batalha Cibernéticos (CTF & Labs Online):</strong>
-                <ul>
-                    <li><strong>TryHackMe / Hack The Box:</strong> Campos de testes dinâmicos para aprimorar técnicas em cenários realísticos e desenvolver a mentalidade de um atacante.</li>
-                </ul>
-            </li>
-            <li><strong>Ferramentas de Desenvolvimento e Suporte (Kit de Ferramentas do Engenheiro):</strong>
-                <ul>
-                    <li><strong>Visual Studio Code (VS Code):</strong> Minha interface principal para codificação, análise e documentação.</li>
-                    <li><strong>Git / GitHub Desktop:</strong> Essencial para controle de versão, garantindo a integridade dos meus logs de projeto.</li>
-                    <li><strong>Pylint:</strong> Para garantir que cada script Python esteja otimizado e livre de vulnerabilidades.</li>
-                    <li><strong>Anaconda:</strong> Meu centro de controle para gerenciar ambientes Python e dependências de ferramentas.</li>
-                </ul>
-            </li>
-        </ul>
+#### 24. Módulo 18 - IoT and OT Hacking
+- Segurança em dispositivos IoT (Internet of Things) e sistemas OT (Operational Technology).
+- Vulnerabilidades e ataques específicos, desafios de segurança nesses ambientes.
+- **[Seus códigos/anotações estarão em `Modulo 18 - IoT and OT Hacking/`]**
+    - Exemplo: [IoT_Vulnerabilities.md](Modulo%2018%20-%20IoT%20and%20OT%20Hacking/IoT_Vulnerabilities.md)
 
-        <h2>**5. 👤 :: Perfil do Operador :: Contribuinte Chave**</h2>
-        <pre><code class="json-output">{
-  "agente_designacao": "D3dg3s - Diego CyberSec",
-  "funcao_primaria": "Aspirante a Certified Ethical Hacker",
-  "estado_operacional": "Entusiasta de Cibersegurança em Formação",
-  "credenciais_profissionais": "https://www.linkedin.com/in/seu-perfil/",
-  "objetivo_estrategico": "Maestria no hacking ético e contribuição para a segurança digital global."
-}</code></pre>
+#### 25. Módulo 18 - Labs
+- Laboratórios práticos relacionados a IoT and OT Hacking.
+- **[Seus arquivos de laboratório estarão em `Modulo 18 - Labs/`]**
+    - Exemplo: [Lab_SCADA_Attack.md](Modulo%2018%20-%20Labs/Lab_SCADA_Attack.md)
 
-        <h2>**6. 📈 :: Roteiro de Implementação :: Próximos Alvos & Estratégias**</h2>
-        <p>A evolução deste log de projeto é uma operação contínua. As próximas fases incluem:</p>
-        <ul>
-            <li><strong>Infiltração Profunda de Conteúdo:</strong> Preenchimento sistemático de cada diretório de módulo com:
-                <ul>
-                    <li>Anotações táticas e aprofundadas.</li>
-                    <li>Scripts de exploração e automação testados em campo.</li>
-                    <li>Relatórios de laboratório detalhados, com fluxogramas de ataque e mitigações.</li>
-                </ul>
-            </li>
-            <li><strong>Simulação de Cenários de Ataque Complexos:</strong> Desenvolvimento e documentação de cenários que transcendem os labs padrão do curso.</li>
-            <li><strong>Análise e Customização de Ferramentas:</strong> Estudo aprofundado e modificação de ferramentas avançadas para cada fase do ciclo de ataque.</li>
-            <li><strong>Integração de Inteligência CTF:</strong> Inclusão de "write-ups" e metodologias de desafios de Capture The Flag (CTF) relevantes, para solidificar o pensamento fora da caixa.</li>
-            <li><strong>Controle de Versão e Atualização:</strong> Manutenção proativa do repositório, garantindo que a inteligência de ameaças mais recente seja incorporada.</li>
-        </ul>
+#### 26. Módulo 19 - Cloud Computing
+- Segurança em ambientes de nuvem (AWS, Azure, GCP).
+- Vulnerabilidades e riscos em nuvem, melhores práticas de segurança na nuvem.
+- **[Seus códigos/anotações estarão em `Modulo 19 - Cloud Computing/`]**
+    - Exemplo: [Cloud_Security_Best_Practices.md](Modulo%2019%20-%20Cloud%20Computing/Cloud_Security_Best_Practices.md)
 
-        <h2>**7. ✨ :: Log de Eventos :: Destaques Operacionais e Anomalias do Sistema (Lições Aprendidas)**</h2>
-        <ul>
-            <li><strong>Destaques Operacionais (Conquistas Desbloqueadas):</strong>
-                <ul>
-                    <li>Implantação bem-sucedida de uma <strong>estrutura modular CEH-compliant</strong>, projetada para rastreamento eficaz de conhecimento e demonstração de proficiência.</li>
-                    <li>Desenvolvimento de um <strong>Protocolo de Estudo híbrido (teoria + prática intensa)</strong>, utilizando plataformas de labs reais para validação de habilidades.</li>
-                    <li>Adoção de um <strong>arsenal de ferramentas profissionais</strong>, replicando o ambiente de um operador de segurança cibernética no mundo real.</li>
-                </ul>
-            </li>
-            <li><strong>Anomalias do Sistema (Desafios Encontrados e Superados):</strong>
-                <ul>
-                    <li>A <strong>vasta e complexa paisagem do currículo CEH v13</strong> exige um gerenciamento rigoroso de tempo e foco para garantir a absorção completa do conhecimento.</li>
-                    <li>Manter a <strong>documentação granular e de alta qualidade</strong> para cada laboratório e conceito é uma operação de alto nível que requer disciplina e atenção aos detalhes.</li>
-                    <li>A <strong>velocidade da evolução das ameaças cibernéticas</strong> impulsiona a necessidade constante de pesquisa e atualização para além do material do curso.</li>
-                </ul>
-            </li>
-        </ul>
+#### 27. Módulo 20 - Cryptography
+- Fundamentos de criptografia, tipos de algoritmos (simétricos, assimétricos, hashing).
+- Ataques e contramedidas criptográficas.
+- **[Seus códigos/anotações estarão em `Modulo 20 - Cryptography/`]**
+    - Exemplo: [Crypto_Examples.py](Modulo%2020%20-%20Cryptography/Crypto_Examples.py)
 
-        <h2>**8. ✍️ :: Conclusão da Missão :: Próximos Horizontes**</h2>
-        <pre><code class="bash-output">root@D3dg3s_Workstation:~# echo "Finalizando entrada no logbook..."
-[+] Missão em andamento.
-[+] Próxima fase: Infiltração e documentação avançada de módulos.
-[+] Mantenha-se seguro. Over and out.
-</code></pre>
-        <p>Este Log de Projeto CEH v13 é mais do que um repositório; é um testemunho da minha paixão incessante pela cibersegurança e da minha busca pela maestria no hacking ético. Ele serve como uma prova concreta das minhas capacidades teóricas e práticas. Convido a comunidade a inspecionar este log e a colaborar para fortalecer a fronteira digital.</p>
-    </div>
-</body>
-</html>
+#### 28. Módulo 20 - Labs
+- Laboratórios práticos relacionados a Cryptography.
+- **[Seus arquivos de laboratório estarão em `Modulo 20 - Labs/`]**
+    - Exemplo: [Lab_Hashing_Cracking.md](Modulo%2020%20-%20Labs/Lab_Hashing_Cracking.md)
+
+---
+
+## Como Contribuir
+
+Este repositório é um diário do meu aprendizado. Se você tiver sugestões, correções ou quiser discutir algum tópico, sinta-se à vontade para abrir uma issue ou fazer um pull request.
+
+## Licença
+
+Este projeto é de código aberto e está disponível sob a licença [MIT License](LICENSE).
+
+---
