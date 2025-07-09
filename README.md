@@ -1,8 +1,7 @@
 <p align="center">
 
-<img id="meuGif" src="https://lh7-rt.googleusercontent.com/docsz/AD_4nXcRHutwNKvdC2barDXGmT0ckSYyV7Rl3-beTjyBLfMGHq0G4qudBtT4H5R7dtTwgDd0HQWqlLD-JbbLaznNpdlUgoOTrlpLEATuK-Yh3J3qyQMaacOZ85vOJ2SH74QrijjeOxJgZNVS5LnsyzAiS7o-9u8?key=62avVpfs8yLpDj_StRf8gA">
+<img src="https://lh7-rt.googleusercontent.com/docsz/AD_4nXcRHutwNKvdC2barDXGmT0ckSYyV7Rl3-beTjyBLfMGHq0G4qudBtT4H5R7dtTwgDd0HQWqlLD-JbbLaznNpdlUgoOTrlpLEATuK-Yh3J3qyQMaacOZ85vOJ2SH74QrijjeOxJgZNVS5LnsyzAiS7o-9u8?key=62avVpfs8yLpDj_StRf8gA" width="300" height="150">
 
-<style> #meuGif { height: 50vh; /* Define a altura como 50% da viewport height */ overflow: hidden; /* Esconde a parte que ultrapassa a altura definida */ object-fit: cover; /* Preenche o contêiner mantendo a proporção e cortando se necessário */ object-position: top; /* Posiciona o conteúdo para mostrar a parte superior */ } </style>
 
 # 🚀 Relatório de Operações: CEH v13 🚀
 
