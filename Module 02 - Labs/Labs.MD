@@ -4,7 +4,7 @@
 
 <h2>Realizar Footprinting por meio de serviços de pesquisa na internet</h2>
 
-<img src="/home/kali/Área de trabalho/Certified-Ethical-Hacker-V13/Module 02 - Labs/Images/2.png">
+<img src="https://github.com/Diegodevcyber/Certified-Ethical-Hacker-V13/blob/main/Module%2002%20-%20Labs/Images/2.png?raw=true">
 
 <h2>Realizar Footprinting por meio de sites de redes sociais</h2>
 
