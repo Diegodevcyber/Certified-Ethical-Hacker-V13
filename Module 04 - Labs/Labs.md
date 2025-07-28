@@ -1,5 +1,5 @@
 <h2>Detecção de sistema operacional com Nmap</h2>
-<img src="">
+<img src="https://github.com/Diegodevcyber/Certified-Ethical-Hacker-V13/blob/main/Module%2004%20-%20Labs/images/1.png">
 <h2>Enumeração NTP com Nmap</h2>
 <img src="">
 <h2>Executar enumeração LDAP usando o Active Directory Explorer (AD Explorer)</h2>
