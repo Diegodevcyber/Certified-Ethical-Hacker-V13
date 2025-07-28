@@ -80,5 +80,5 @@ Todo o material contido neste repositório é distribuído sob a licença [MIT L
 <p align="center">
   <em>Análise. Exploração. Proteção.</em>
   <br>
-  <span>D1xgxs3c &copy; 2025 - CyberOps</span>
+  <span>Diegodevcyb3r &copy; 2025 - Diegodevcyb3r</span>
 </p>
