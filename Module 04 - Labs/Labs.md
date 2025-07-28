@@ -3,7 +3,10 @@
 <h2>Enumeração NTP com Nmap</h2>
 <img src="https://github.com/Diegodevcyber/Certified-Ethical-Hacker-V13/blob/main/Module%2004%20-%20Labs/images/2.png">
 <h2>Executar enumeração LDAP usando o Active Directory Explorer (AD Explorer)</h2>
-<img src="https://github.com/Diegodevcyber/Certified-Ethical-Hacker-V13/blob/main/Module%2004%20-%20Labs/images/3.png">
+<img src="https://github.com/Diegodevcyber/Certified-Ethical-Hacker-V13/blob/main/Module%2004%20-%20Labs/images/3.1.png">
+<img src="https://github.com/Diegodevcyber/Certified-Ethical-Hacker-V13/blob/main/Module%2004%20-%20Labs/images/3.2.png">
+<img src="https://github.com/Diegodevcyber/Certified-Ethical-Hacker-V13/blob/main/Module%2004%20-%20Labs/images/3.3.png">
+<img src="https://github.com/Diegodevcyber/Certified-Ethical-Hacker-V13/blob/main/Module%2004%20-%20Labs/images/3.4.png">
 <h2>Realizar Enumeração NFS usando RPCScan e SuperEnum</h2>
 <img src="https://github.com/Diegodevcyber/Certified-Ethical-Hacker-V13/blob/main/Module%2004%20-%20Labs/images/4.png">
 <h2>Realizar Enumeração DNS usando Transferência de Zona</h2>
