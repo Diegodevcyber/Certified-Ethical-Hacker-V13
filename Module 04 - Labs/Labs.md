@@ -29,4 +29,5 @@
 <img src="https://github.com/Diegodevcyber/Certified-Ethical-Hacker-V13/blob/main/Module%2004%20-%20Labs/images/7.11.png">
 <img src="https://github.com/Diegodevcyber/Certified-Ethical-Hacker-V13/blob/main/Module%2004%20-%20Labs/images/7.12.png">
 <h2>Execute enumeração ultilizando Al</h2>
-<img src="https://github.com/Diegodevcyber/Certified-Ethical-Hacker-V13/blob/main/Module%2004%20-%20Labs/images/8.png">
+<img src="https://github.com/Diegodevcyber/Certified-Ethical-Hacker-V13/blob/main/Module%2004%20-%20Labs/images/8.1.png">
+<img src="https://github.com/Diegodevcyber/Certified-Ethical-Hacker-V13/blob/main/Module%2004%20-%20Labs/images/8.2.png">
