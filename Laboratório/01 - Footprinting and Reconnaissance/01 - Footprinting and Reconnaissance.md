@@ -1,5 +1,5 @@
 ## Realizar Footprinting por meio de mecanismos de busca 
-<span style="color:red;">site</span>: Restringe os resultados da pesquisa a um site ou domínio específico.<br>
+<kbd>site</kbd>: Restringe os resultados da pesquisa a um site ou domínio específico.<br>
 <span style="color:red;">allinurl</span>: Retorna apenas páginas que contêm todos os termos especificados na URL.<br>
 <span style="color:red;">inurl</span>: Retorna páginas que contêm uma palavra específica na URL.<br>
 <span style="color:red;">intext</span>: Retorna páginas que contêm uma palavra ou frase específica no corpo do texto.<br>
