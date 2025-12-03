@@ -18,6 +18,8 @@
 `before`: <sub>Filtra os resultados da pesquisa para incluir apenas conteúdo publicado antes de uma data especificada.</sub><br>
 `after`: <sub>Encontra informações que foram publicadas após uma determinada data.</sub><br>
 
+
+
 ## Realizar Footprinting por meio de serviços de pesquisa na internet 🌐
 https://sitereport.netcraft.com/<br>
 https://dnsdumpster.com/<br>
