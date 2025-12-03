@@ -1,5 +1,5 @@
 ## Realizar Footprinting por meio de mecanismos de busca 🔍
-`site`: ****Restringe os resultados da pesquisa a um site ou domínio específico.****<br>
+`site`: <sub>Restringe os resultados da pesquisa a um site ou domínio específico.</sub><br>
 `allinurl`: Retorna apenas páginas que contêm todos os termos especificados na URL.<br>
 `inurl`: Retorna páginas que contêm uma palavra específica na URL.<br>
 `intext`: Retorna páginas que contêm uma palavra ou frase específica no corpo do texto.<br>
