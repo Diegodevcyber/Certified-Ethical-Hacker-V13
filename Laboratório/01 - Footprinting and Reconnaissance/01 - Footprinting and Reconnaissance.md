@@ -30,3 +30,19 @@ https://www.whois.com/whois/
 
 ## Realizar Footprinting de e-mail
 
+ <img src="https://github.com/Diegodevcyber/Certified-Ethical-Hacker-V13/blob/main/public/images/Footprinting%20and%20Reconnaissance/4.png">
+
+ **sites**<br>
+https://socialcatfish.com/reverse-email-address-search/<br>
+https://www.ip2location.com/<br>
+https://mxtoolbox.com/emailhealth<br>
+
+## Realizar Footprint usando várias ferramentas
+<img src="https://github.com/Diegodevcyber/Certified-Ethical-Hacker-V13/blob/main/public/images/Footprinting%20and%20Reconnaissance/5.1.png">
+<img src="https://github.com/Diegodevcyber/Certified-Ethical-Hacker-V13/blob/main/public/images/Footprinting%20and%20Reconnaissance/5.2.png">
+<img src="https://github.com/Diegodevcyber/Certified-Ethical-Hacker-V13/blob/main/public/images/Footprinting%20and%20Reconnaissance/5.3.png">
+
+## Realizar Footprinting usando IA
+<img src="https://github.com/Diegodevcyber/Certified-Ethical-Hacker-V13/blob/main/public/images/Footprinting%20and%20Reconnaissance/6.png">
+
+
