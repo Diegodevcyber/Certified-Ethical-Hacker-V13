@@ -22,20 +22,4 @@ https://www.whois.com/whois/
 ```
 ## Realizar Footprinting de DNS
 
-**Procurando endereços IP para um site**
-```python
-nslookup > set type=a > www.amazon.com
-```
-**Verificando registros de nomes canônicos (CNAME)**
-```python
-nslookup > set type=cname > amazon.com
-```
-**Tentando encontrar um endereço IP para um hostmaster de e-mail**
-```python
-nslookup > set type=a > hostmaster.amazon.com
-```
-**também pode fazer tudo por aqui**
-```python
-http://www.kloth.net/services/nslookup.php
-```
 
