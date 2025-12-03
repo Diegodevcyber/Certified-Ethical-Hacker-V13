@@ -22,4 +22,11 @@ https://www.whois.com/whois/
 ```
 ## Realizar Footprinting de DNS
 
+ <img src="https://github.com/Diegodevcyber/Certified-Ethical-Hacker-V13/blob/main/public/images/Footprinting%20and%20Reconnaissance/3.png">
+
+## Realizar Footprinting de rede
+
+ <img src="https://github.com/Diegodevcyber/Certified-Ethical-Hacker-V13/blob/main/public/images/Footprinting%20and%20Reconnaissance/2.png">
+
+## Realizar Footprinting de e-mail
 
