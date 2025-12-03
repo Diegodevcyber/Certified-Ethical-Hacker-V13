@@ -1,5 +1,5 @@
  
  ## Realizar Footprinting por meio de mecanismos de busca
  
- <img src="/home/dcyb3rdev/Área de trabalho/Certified-Ethical-Hacker-V13/public/images/Footprinting and Reconnaissance/1.png">
+ <img src="https://github.com/Diegodevcyber/Certified-Ethical-Hacker-V13/blob/main/public/images/Footprinting%20and%20Reconnaissance/1.png">
 
